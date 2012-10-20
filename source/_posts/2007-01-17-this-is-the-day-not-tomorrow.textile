@@ -1,6 +1,6 @@
---- 
+---
 title: THIS is the day.  Not Tomorrow.
-typo_id: 2644
+layout: post
 ---
 
 <div>
@@ -19,9 +19,9 @@ bq. When we celebrate, we exercise our ability to see and feel goodness in the s
 Some take home lessons for me:
 * Yes, I need to place some emphasis on setting goals for the future and working today to help achieve objectives tomorrow.  Not as much emphasis as I've been placing, though.  I shouldn't be so focused on tomorrow that I'm missing the wonder of today.
 * I need to start taking much more notice of the incredible things that happen on a daily basis right in front of me.
-* Joy in life and achieving goals aren't tied together.  One is not dependent on the other. 
+* Joy in life and achieving goals aren't tied together.  One is not dependent on the other.
 
-This is the day which the LORD has made; Let us rejoice and be glad in it. 
+This is the day which the LORD has made; Let us rejoice and be glad in it.
 - Psalm 118:24
 
 

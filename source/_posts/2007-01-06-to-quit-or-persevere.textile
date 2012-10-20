@@ -1,6 +1,6 @@
---- 
+---
 title: To Quit or Persevere
-typo_id: 2313
+layout: post
 ---
 
 In "Seth Godin's blog post about strategy":http://sethgodin.typepad.com/seths_blog/2007/01/the_difference_.html, he says:
@@ -9,7 +9,7 @@ bq. _It takes real guts to abandon a strategy, especially if you've gotten super
 
 <img src="/files/heading_quitting_time.gif" width=140/>
 
-I agree with him.  Abandoning a strategy is often a good idea.  
+I agree with him.  Abandoning a strategy is often a good idea.
 
 His post brought to mind a few questions I've thought about in the past along similar lines.  When do you quit?  How do you know if your current strategy really should be abandoned, or if you're just quitting before your strategy had enough time to succeed?
 
@@ -18,7 +18,7 @@ We're often given seemingly conflicting advice in life:
 * "Embrace change and be willing to change strategies because the path that you're on might not be feasible."
 * "It's not possible to fail if you don't give up."
 
-I'm not really sure how to generically know if it's time to change strategies.  I am, however, capable of coming to a conclusion for a specific business instance.  "Soapadoo":http://soapadoo.com.  
+I'm not really sure how to generically know if it's time to change strategies.  I am, however, capable of coming to a conclusion for a specific business instance.  "Soapadoo":http://soapadoo.com.
 
 Is the whole strategy of "Soapadoo":http://soapadoo.com flawed?  Should I stop spending time on it and instead devote time to another business?  "Soapadoo":http://soapadoo.com clearly isn't viral yet and it hasn't become the dominant reviews website on the internet.  It's generated revenue but it's not yet profitable.  Should it be scrapped?
 
@@ -29,7 +29,7 @@ My answer is no.  Certainly not.  Here are some reasons why:
 * I haven't found another website yet that's completely focused on reviews and keeping things simple without bloat.
 * I haven't found another website yet that allowed bloggers and other reviewers to aggregate a subset of their posts onto a review site that's highly Googleable.
 * I haven't found another review site yet where "reviewers could benefit financially":http://soapadoo.com/info/financial_benefits.
-* I haven't found another website that effectively combined the idea of a social network with reviews.  
-* As a consumer of the site, I find it personally useful to read reviews written by friends and others I respect.  I've also found it useful to be able to email a link to a Soapadoo review to those looking for recommendations.  
-* This business has a _really_ low capital burn rate.  
-* If "Soapadoo":http://soapadoo.com isn't profitable a year from now, I'll certainly consider spending less time on it in favor spending time on more profitable ventures. 
+* I haven't found another website that effectively combined the idea of a social network with reviews.
+* As a consumer of the site, I find it personally useful to read reviews written by friends and others I respect.  I've also found it useful to be able to email a link to a Soapadoo review to those looking for recommendations.
+* This business has a _really_ low capital burn rate.
+* If "Soapadoo":http://soapadoo.com isn't profitable a year from now, I'll certainly consider spending less time on it in favor spending time on more profitable ventures.

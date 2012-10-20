@@ -1,9 +1,9 @@
---- 
-title: A Remarkable Offer Part 2
-typo_id: 32
 ---
-!<{margin-right:20px}/files/godin.jpg! 
+title: A Remarkable Offer Part 2
+layout: post
+---
+!<{margin-right:20px}/files/godin.jpg!
 
-I wanted to mention that I recently took part in the Q&A session that "Seth Godin":http://www.squidoo.com/seth offered to people buying 11 copies of his book.  I won't go into any details, but suffice it to say that it was incredible.  He is a marketing super genius and he had a huge impact on the entrepreneurs on the phone call.  I greatly enjoyed it.  
+I wanted to mention that I recently took part in the Q&A session that "Seth Godin":http://www.squidoo.com/seth offered to people buying 11 copies of his book.  I won't go into any details, but suffice it to say that it was incredible.  He is a marketing super genius and he had a huge impact on the entrepreneurs on the phone call.  I greatly enjoyed it.
 
-I'll also say that there are gonna be lots of changes at Soapbox over the next few weeks.  He had ideas that I don't think I ever would have thought of.  And even if I had thought of them, I don't think I would have had the guts to proceed with them because they're so different than what I was thinking.  I'm really excited about the feedback he provided.    
+I'll also say that there are gonna be lots of changes at Soapbox over the next few weeks.  He had ideas that I don't think I ever would have thought of.  And even if I had thought of them, I don't think I would have had the guts to proceed with them because they're so different than what I was thinking.  I'm really excited about the feedback he provided.

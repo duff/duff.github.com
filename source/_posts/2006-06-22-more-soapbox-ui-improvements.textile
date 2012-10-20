@@ -1,5 +1,5 @@
---- 
-title: More Soapbox UI improvements
-typo_id: 9
 ---
-Rich implemented a number of "Soapbox":http://soapboxit.com  UI improvements and cleaned things up some.  Internet Explorer still looks a bit funky but Safari and Firefox are looking pretty good.  
+title: More Soapbox UI improvements
+layout: post
+---
+Rich implemented a number of "Soapbox":http://soapboxit.com  UI improvements and cleaned things up some.  Internet Explorer still looks a bit funky but Safari and Firefox are looking pretty good.

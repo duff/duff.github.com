@@ -1,7 +1,7 @@
---- 
-title: Browsing improvements in Soapbox
-typo_id: 34
 ---
-A number of the pages in "Soapbox":http://soapboxit.com contain a list of reviews.  Until now, these lists contained each review in its entirety.  This was clearly sub-optimal, especially as more and more detailed reviews have been written.  I released an update to address this issue which allows users to see many more reviews at a time while lowering the amount of scrolling they need to do.  I think it's a significant improvement and it will facilitate some other enhancements that are on the way.  
+title: Browsing improvements in Soapbox
+layout: post
+---
+A number of the pages in "Soapbox":http://soapboxit.com contain a list of reviews.  Until now, these lists contained each review in its entirety.  This was clearly sub-optimal, especially as more and more detailed reviews have been written.  I released an update to address this issue which allows users to see many more reviews at a time while lowering the amount of scrolling they need to do.  I think it's a significant improvement and it will facilitate some other enhancements that are on the way.
 
 You can get a feel for some of the changes by looking "here":http://soapboxit.com/browse.

@@ -1,13 +1,13 @@
---- 
+---
 title: Microsoft, YouTube, and Soapbox
-typo_id: 35
+layout: post
 ---
 Microsoft recently announced that they will be releasing a web site to compete with the extremely popular "YouTube":http://youtube.com.  Unfortunately, Microsoft decided to call their site Soapbox.  It's taken me a few days to process this development and I've made a decision about it.
 
-I must change the name of "Soapbox":http://soapboxit.com.  I resisted this for a few days, but I've come to the conclusion that I need to bite the bullet and change the name.  It hurts, but I think it's the best option I have.  
+I must change the name of "Soapbox":http://soapboxit.com.  I resisted this for a few days, but I've come to the conclusion that I need to bite the bullet and change the name.  It hurts, but I think it's the best option I have.
 
-I've been reading the excellent marketing classic entitled "Positioning: The Battle for Your Mind":http://www.amazon.com/exec/obidos/tg/detail/-/0071359168/realreviews-20/.  It has driven home the idea that the name you choose for your product is quite important.  The really successful products have a brand name that has become associated with the generic product.  When those brand names are discussed, people immediately make that association.  Clorox = bleach.  Bayer = aspirin.  Ebay = auction site.  Kleenex = tissue.  
+I've been reading the excellent marketing classic entitled "Positioning: The Battle for Your Mind":http://www.amazon.com/exec/obidos/tg/detail/-/0071359168/realreviews-20/.  It has driven home the idea that the name you choose for your product is quite important.  The really successful products have a brand name that has become associated with the generic product.  When those brand names are discussed, people immediately make that association.  Clorox = bleach.  Bayer = aspirin.  Ebay = auction site.  Kleenex = tissue.
 
 I need to choose a name for "Soapbox":http://soapboxit.com that has the potential for that association to be made someday.   So that when people hear the name, they immediately think 'review site'.  Microsoft has successfully soiled the name Soapbox.  It will forever be associated with 'video site'.
 
-Hopefully, I'll be announcing the new name soon.  
+Hopefully, I'll be announcing the new name soon.

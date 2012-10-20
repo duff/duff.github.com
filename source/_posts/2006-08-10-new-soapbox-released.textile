@@ -1,6 +1,6 @@
---- 
+---
 title: New Soapbox Released
-typo_id: 16
+layout: post
 ---
 Since originally releasing "Soapbox":http://soapboxit.com, I've received a ton of feedback from users about how the site could be improved.  I'm so thankful that many folks were willing to give of their time to help.  I could never have anticipated many of the requests that were made.  This is one of the advantages of releasing a simple site as early in the development process as possible because then I'm getting real feedback from real customers rather than guessing what customers might want someday.  My guesses are so often wrong.
 
@@ -9,15 +9,15 @@ Here are some of the enhancements you might notice:
 * Many people have signed up as registered users of Soapbox and started writing reviews.  Not many people have started filling out their network of friends yet.  One of the reasons for this is that the site didn't demonstrate the advantages of being connected to the people you know.  Why would people connect if the benefits aren't clear?  Some of the enhancements attempt to address this.
 * The home page now displays 'Featured Reviews in My Network' and 'Other Featured Reviews'.  These are dynamic lists that change every time the page is displayed.
 * Sorting on the My Stuff page is now case insensitive.
-* Made the "Connect to First Name" link more prominent. 
+* Made the "Connect to First Name" link more prominent.
 * Made the "Edit Profile" link more prominent.
 * Significantly improved the Related Reviews feature of the site.
 * Prettied up the pagination on the site.
-* When users sign up, a confirmation email is sent to them.  The message telling them about this email was made much more prominent.  
-* Significantly improved the handling of the case when a user who hasn't confirmed their email address attempts to login.  
-* The Recent Reviews Tab has been renamed to Browse.  There are now 2 ways to browse on that Tab (Recent Reviews and Recent Reviews in My Network).  There will be additional ways to browse in the future as more reviews are written and more users come online.  One method that's planned in the near future is to be able to browse by using the most popular searches.  This will give users the ability to browse some of the things people have been looking for. 
+* When users sign up, a confirmation email is sent to them.  The message telling them about this email was made much more prominent.
+* Significantly improved the handling of the case when a user who hasn't confirmed their email address attempts to login.
+* The Recent Reviews Tab has been renamed to Browse.  There are now 2 ways to browse on that Tab (Recent Reviews and Recent Reviews in My Network).  There will be additional ways to browse in the future as more reviews are written and more users come online.  One method that's planned in the near future is to be able to browse by using the most popular searches.  This will give users the ability to browse some of the things people have been looking for.
 
 
-Some of the enhancements I made don't look that pretty.  "Rich":http://soapboxit.com/review/42 is currently working on fixing that.  
+Some of the enhancements I made don't look that pretty.  "Rich":http://soapboxit.com/review/42 is currently working on fixing that.
 
 

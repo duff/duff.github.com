@@ -1,6 +1,6 @@
---- 
+---
 title: Business Reps
-typo_id: 6
+layout: post
 ---
 !/files/images-3.jpg!
 

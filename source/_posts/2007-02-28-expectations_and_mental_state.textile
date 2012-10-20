@@ -1,8 +1,8 @@
---- 
-title: Expectations and Mental State
-typo_id: 3850
 ---
-!/files/happy_sad_face.jpg! 
+title: Expectations and Mental State
+layout: post
+---
+!/files/happy_sad_face.jpg!
 
 I've been wondering about how much of our mental state is based solely on our expectations.
 
@@ -12,4 +12,4 @@ Now change the scenario just a bit.  The same day begins and I plan on accomplis
 
 The only difference between the two scenarios was my prediction for how much I thought I'd accomplish.  I worked just as hard and just as efficiently but my mental state at the end of each scenario was markedly different.
 
-It's interesting to me that we know that we're not clairvoyant yet our mental state can be affected by our ability to predict the future.    
+It's interesting to me that we know that we're not clairvoyant yet our mental state can be affected by our ability to predict the future.

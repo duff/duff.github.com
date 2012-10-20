@@ -1,13 +1,13 @@
---- 
-title: Monetizing a web site - now or later?
-typo_id: 18
 ---
-!https://www.google.com/adsense/images/google_sm.gif! I debated for awhile about when one should start monetizing a website.  When should one attempt to have the website generate revenue?  I originally thought I should have tens of thousands of reviews and that the site should be hoppin' in order to start monetizing.  I'm not really sure what led me to this line of reasoning.  Right now, it just doesn't seem logical.  Why not become cash flow positive on the business earlier?  I can't see any downsides of monetizing early, especially if the method of monetizing your site provides value to the users of the site.  
+title: Monetizing a web site - now or later?
+layout: post
+---
+!https://www.google.com/adsense/images/google_sm.gif! I debated for awhile about when one should start monetizing a website.  When should one attempt to have the website generate revenue?  I originally thought I should have tens of thousands of reviews and that the site should be hoppin' in order to start monetizing.  I'm not really sure what led me to this line of reasoning.  Right now, it just doesn't seem logical.  Why not become cash flow positive on the business earlier?  I can't see any downsides of monetizing early, especially if the method of monetizing your site provides value to the users of the site.
 
-Therefore, I added some Google Ad Sense and I connected to the Amazon Associates program.  I didn't really know too much about them before starting on the task.  All in all, it's taken me about 8 hours to learn about the 2 programs and incorporate them into "Soapbox":http://soapboxit.com.  
+Therefore, I added some Google Ad Sense and I connected to the Amazon Associates program.  I didn't really know too much about them before starting on the task.  All in all, it's taken me about 8 hours to learn about the 2 programs and incorporate them into "Soapbox":http://soapboxit.com.
 
-What's interesting is that before today, the site had zero chance of generating revenue.  Now it suddenly has potential to generate revenue every day.  I wonder how it will go.  
+What's interesting is that before today, the site had zero chance of generating revenue.  Now it suddenly has potential to generate revenue every day.  I wonder how it will go.
 
-I think "Soapbox":http://soapboxit.com is a *perfect* site for Google Ad Sense and a *perfect* site for the Amazon program.  Both programs provide value to the user of the site.  I've been amazed how relevant *AND* useful the Google ads are.  I think they're a good fit for the site and they're not just 'noise' like they are on many sites.  In some ways, "Soapbox":http://soapboxit.com could become a broker that sits between potential customers learning about products and the providers of those products who are purchasing the ads.  It's the same way with Amazon.  If I'm reading a review that a friend wrote for a book, it's pretty nice to have the Amazon link there to make it easier for me to buy it.       
+I think "Soapbox":http://soapboxit.com is a *perfect* site for Google Ad Sense and a *perfect* site for the Amazon program.  Both programs provide value to the user of the site.  I've been amazed how relevant *AND* useful the Google ads are.  I think they're a good fit for the site and they're not just 'noise' like they are on many sites.  In some ways, "Soapbox":http://soapboxit.com could become a broker that sits between potential customers learning about products and the providers of those products who are purchasing the ads.  It's the same way with Amazon.  If I'm reading a review that a friend wrote for a book, it's pretty nice to have the Amazon link there to make it easier for me to buy it.
 
 Why not monetize early?

@@ -1,7 +1,7 @@
---- 
+---
 title: What is this place?
-typo_id: 1
+layout: post
 ---
 Well... I never thought I'd be a part of the blogging world, but here I sit.  So what is this blog anyway?  I'm "Duff OMelia":http://omelia.org/duff and I have two primary goals for this blog:
-* I'd like people to see the entrepreneurial journey from an idea to a business that provides value.  I'd like to share some of the things I'm learning about as I develop businesses and figure out how on earth to be an entrepreneur.  Perhaps you'll be able to learn from both the good decisions I've made and the mistakes I don't want to make again.    
-* This is the place where announcements will be made about "Codora's":http://codora.com products and services.  You'll be able to hear news about "Soapbox":http://soapboxit.com and any other products that "Codora":http://codora.com makes in the future.  
+* I'd like people to see the entrepreneurial journey from an idea to a business that provides value.  I'd like to share some of the things I'm learning about as I develop businesses and figure out how on earth to be an entrepreneur.  Perhaps you'll be able to learn from both the good decisions I've made and the mistakes I don't want to make again.
+* This is the place where announcements will be made about "Codora's":http://codora.com products and services.  You'll be able to hear news about "Soapbox":http://soapboxit.com and any other products that "Codora":http://codora.com makes in the future.

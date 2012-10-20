@@ -1,11 +1,11 @@
---- 
+---
 title: Soapbox status
-typo_id: 5
+layout: post
 ---
 The public release of "Soapbox":http://soapboxit.com is scheduled to happen after Rich from "Samedis Design":http://samedis.com completes his first pass beautification of the site.  I'm pretty excited about it.  I'm hopeful that the release will happen this month.
 
-In anticipation of the release, I've been intensely studying marketing so that I might have a clue as to how to market the site.  I have no background in the subject and I've never studied it before.  It has been fascinating.    
+In anticipation of the release, I've been intensely studying marketing so that I might have a clue as to how to market the site.  I have no background in the subject and I've never studied it before.  It has been fascinating.
 
 The study has actually triggered a number of feature changes in Soapbox.  I've made it much easier for users of the system to tell others about the site and I've adjusted the signup page to be more explicit it its request for permission to contact customers about updates.  Users can now easily email a review to friends and they can connect to multiple friends in one shot rather than one friend at a time.  The study of marketing was actually one of the reasons I created this blog in the first place.
 
-One of the authors I've been reading is "Seth Godin":http://sethgodin.typepad.com/.  He has taught me much.  
+One of the authors I've been reading is "Seth Godin":http://sethgodin.typepad.com/.  He has taught me much.

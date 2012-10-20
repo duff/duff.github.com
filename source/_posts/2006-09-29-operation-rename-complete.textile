@@ -1,20 +1,19 @@
---- 
-title: Operation Rename Complete
-typo_id: 37
 ---
-Well, it's official.  "Soapbox":http://soapadoo.com has been renamed.  The new name is "Soapadoo":http://soapadoo.com.  This is "why the site was
-renamed":/blog/2006/09/19/microsoft-youtube-and-soapbox.
+title: Operation Rename Complete
+layout: post
+---
+Well, it's official.  "Soapbox":http://soapadoo.com has been renamed.  The new name is "Soapadoo":http://soapadoo.com.  This is "why the site was renamed":/blog/2006/09/19/microsoft-youtube-and-soapbox.
 
 I've learned a number of lessons during this transition:
 
 * Naming products is difficult.
 * The domain real estate market seems like a pretty profitable business to be in.  There's certainly not an endless supply of .com domains out there.
-* I need to research trademarking and determine if I should trademark Soapadoo.  I don't know if trademarking Soapbox would have helped me against Microsoft.  Their site is a different kind of site than the Soapbox featuring reviews. 
+* I need to research trademarking and determine if I should trademark Soapadoo.  I don't know if trademarking Soapbox would have helped me against Microsoft.  Their site is a different kind of site than the Soapbox featuring reviews.
 
-I've thought a lot about whether to give the site a name that in some way tells what it does.  There are certainly a number of advantages of doing so.  There are also a number of benefits of naming a product using a newly created word that doesn't necessarily explain what the product does.  There are a ton of examples of successful products on both sides of this issue.  In the end, I chose a name that is a new word that doesn't explain what the site does.  
+I've thought a lot about whether to give the site a name that in some way tells what it does.  There are certainly a number of advantages of doing so.  There are also a number of benefits of naming a product using a newly created word that doesn't necessarily explain what the product does.  There are a ton of examples of successful products on both sides of this issue.  In the end, I chose a name that is a new word that doesn't explain what the site does.
 
-Either way, I need to make the site so remarkable and so useful to folks that they feel compelled to tell others about it.  Then over time, perhaps the name Soapadoo can be positioned in people's minds as an amazing reviews web site.  
+Either way, I need to make the site so remarkable and so useful to folks that they feel compelled to tell others about it.  Then over time, perhaps the name Soapadoo can be positioned in people's minds as an amazing reviews web site.
 
-This rename process hasn't exactly been easy.  I felt like my car had stalled in the intersection and I couldn't convince it to start back up.  I'm glad to be out of the intersection now.  My wife Kelly said at one point, "I am so sick of talking about new names for Soapbox.  It seems like we've been doing this for weeks.  Soapadoo is fine.  Will you just go with it?"  So I did. 
+This rename process hasn't exactly been easy.  I felt like my car had stalled in the intersection and I couldn't convince it to start back up.  I'm glad to be out of the intersection now.  My wife Kelly said at one point, "I am so sick of talking about new names for Soapbox.  It seems like we've been doing this for weeks.  Soapadoo is fine.  Will you just go with it?"  So I did.
 
 Now, there's much work to do.  I'm really excited about it.  I've got a number of features coming which will improve the site's browsing features, make it more social, and help to spread the word about it.  I'm also excited to finally start implementing some of "Seth Godin's":http://www.sethgodin.com ideas for how to market "Soapadoo":http://soapadoo.com.  If I can execute well on the plan, there should be a significant increase in traffic to the site.   We'll see in the next few weeks.

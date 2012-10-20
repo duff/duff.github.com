@@ -5,26 +5,26 @@ There have been times when integration testing a rails site that I've wanted to 
 
 So let's say the following exists on a page in my app:
 
-{% highlight html linenos %}
+``` html
 <html>
   <a href="http://meresheep.com/users/4;resend_activation_email">
       resend your activation email
   </a>
 </html>
-{% endhighlight %}
+```
 
 In my integration test, I can now do things like this:
 
-{% highlight ruby linenos %}
+``` ruby
 def test_non_activated_user
   s = new_session_as :duff
   s.click_link("resend your activation email")
   s.assert_template("invitation_sent")
 end
-{% endhighlight %}
+```
 
 To get this functionality, I added the following method to my integration testing DSL:
-{% highlight ruby linenos %}
+``` ruby
 module IntegrationDsl
 
   def click_link(link_text)
@@ -34,6 +34,6 @@ module IntegrationDsl
   end
 
 end
-{% endhighlight %}
+```
 
 The test fails if the link doesn't exist on the current page.

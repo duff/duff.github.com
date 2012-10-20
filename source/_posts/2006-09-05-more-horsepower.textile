@@ -1,7 +1,7 @@
---- 
-title: More Horsepower
-typo_id: 26
 ---
-To support the latest "feature of Soapbox":/blog/2006/09/05/soapbox-is-now-serving-bloggers I needed to upgrade to an improved web hosting plan at "OCS Solutions":http://www.ocssolutions.com/hosting.php, primarily for memory reasons.  
+title: More Horsepower
+layout: post
+---
+To support the latest "feature of Soapbox":/blog/2006/09/05/soapbox-is-now-serving-bloggers I needed to upgrade to an improved web hosting plan at "OCS Solutions":http://www.ocssolutions.com/hosting.php, primarily for memory reasons.
 
-A pleasant side effect is that many of the pages are now loading in 1/3 to 1/2 the time they previously did.  After I add some caching this week, there should be another significant performance improvement. 
+A pleasant side effect is that many of the pages are now loading in 1/3 to 1/2 the time they previously did.  After I add some caching this week, there should be another significant performance improvement.

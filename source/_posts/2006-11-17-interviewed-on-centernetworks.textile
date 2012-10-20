@@ -1,10 +1,10 @@
---- 
+---
 title: Interviewed on CenterNetworks
-typo_id: 1864
+layout: post
 ---
 
 Allen from "CenterNetworks":http://www.centernetworks.com recently interviewed me about "Soapadoo":http://soapadoo.com and a number of other topics.  I think Allen's a pretty talented interviewer so you might want to check it out.
 
-If you haven't seen "CenterNetworks":http://www.centernetworks.com yet, it's a pretty useful source of information for people in the tech world.  It's also a great place to learn some lessons from tech entrepreneurs.    
+If you haven't seen "CenterNetworks":http://www.centernetworks.com yet, it's a pretty useful source of information for people in the tech world.  It's also a great place to learn some lessons from tech entrepreneurs.
 
 "Here is the interview":http://www.centernetworks.com/interview-with-soapadoo.  You can listen to it on the bottom of that page.  I'm hopeful that it'll provide some value to folks.

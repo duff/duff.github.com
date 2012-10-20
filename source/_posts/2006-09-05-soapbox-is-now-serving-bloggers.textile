@@ -1,6 +1,6 @@
---- 
+---
 title: Soapbox is now serving bloggers
-typo_id: 25
+layout: post
 ---
 I'm pleased to announce the release of a new feature of Soapbox which you bloggers out there have been asking for - Blog Syndication.
 
