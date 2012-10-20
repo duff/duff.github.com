@@ -1,0 +1,5 @@
+--- 
+title: Soapbox is released
+typo_id: 12
+---
+It's a big day.  "Soapbox":http://soapboxit.com is now officially released.  I'm hoping that people find it useful.

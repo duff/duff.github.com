@@ -1,0 +1,6 @@
+--- 
+title: Soapbox looking better in Internet Explorer
+typo_id: 10
+---
+Rich cleaned up Soapbox such that it now looks pretty good in IE.  He's also started making progress on cleaning up the individual pages of the site.  We're shooting for this Friday for me to start the all out marketing campaign. 
+

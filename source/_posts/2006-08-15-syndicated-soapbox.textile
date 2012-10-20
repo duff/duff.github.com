@@ -1,0 +1,10 @@
+--- 
+title: Syndicated Soapbox
+typo_id: 19
+---
+The geeks out there using "Soapbox":http://soapboxit.com will be excited to get their hands on some XML feeds.  You can subscribe to the following:
+* The reviews in your network
+* The recent reviews
+* The reviews of an individual person.
+
+If you don't know what syndication feeds are, you can learn about them "here":http://en.wikipedia.org/wiki/Atom_%28standard%29.

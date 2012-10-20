@@ -1,0 +1,10 @@
+--- 
+title: New Soapbox Enhancements
+typo_id: 17
+---
+I've made some improvements to "Soapbox":http://soapboxit.com based on additional user feedback.
+
+* I improved the invitation email to make it less likely to be ignored.  
+* The site now explains how to connect as a friend to an existing Soapbox user.  Previously the user was led toward entering a user's email address.  Now they're made aware of this other option. 
+
+I also added some Google Ad Sense advertisements and I hooked into the Amazon Associates program.  So now the site has the _chance_ to start paying for itself.

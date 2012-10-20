@@ -1,0 +1,14 @@
+--- 
+title: Getting Real and Mentoring
+typo_id: 11
+---
+!http://www.37signals.com/images/37slogo-trans.gif! 
+
+The folks at "37 Signals":http://37signals.com recently published a book called "Getting Real":https://gettingreal.37signals.com which has had a pretty significant impact on how I develop software.  37 Signals has been quite successful in creating simple, useful web applications.  I'm trying to imitate many of things they've done because what they've done works.  Why try to create my own system from scratch when I can imitate something that's been shown to work?  
+
+This is the heart of mentoring.  Many of the books I've read about successful people talk about the advantages of mentoring.  When you find a mentor, you can typically save yourself years of time because the mentor can help you determine which parts of your study are important and which don't matter.  I've seen this in my own life in learning how to trade the stock market.  I've been learning how to trade for 3 years.  If I didn't have a mentor, it probably would have taken me a decade to reach the point that I'm already at.  It's ridiculously efficient to learn from the successes and failures of a mentor.
+
+Learning from published material is certainly not as great as having a personal relationship with a mentor.  Even so, you can learn a ton from folks you don't know personally.  This is what I'm doing with the 37 Signals guys.  I don't know them personally but they have affected most of the decisions I make when developing a web site.  I've already started to see some benefits of their approach as I've developed "Soapbox":http://soapboxit.com.  Rather than trying to guess what my customers want, I've been focused on releasing something that provides people some value and letting them drive the features they find necessary.  It's been interesting to see that a feature I didn't think would be useful has been suggested by an enormous percentage of the people who have used the site.  Person after person made the same suggestion.  I can now see the advantages of having that feature.  
+ 
+If I wasn't imitating 37 Signals, it would have taken me many more months to release Soapbox and the site would have been much more complicated and harder to use. "Getting Real":https://gettingreal.37signals.com is an excellent book that could help your business even if you're doing something other than software development.
+

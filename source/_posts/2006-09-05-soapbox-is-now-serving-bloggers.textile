@@ -1,0 +1,18 @@
+--- 
+title: Soapbox is now serving bloggers
+typo_id: 25
+---
+I'm pleased to announce the release of a new feature of Soapbox which you bloggers out there have been asking for - Blog Syndication.
+
+h4. Why would you want to syndicate the reviews from your blog onto Soapbox?
+
+* More people will see your reviews.
+* More people will learn about your blog.
+* Each syndicated review in Soapbox contains a link to your original blog entry.
+* Your reviews will matter more because they'll have more reach.
+* When people are buying a product, they typically search review sites, not blogs.
+* Your blog's rankings in search engines are improved as more sites refer to your blog.
+* It is SO easy to mark a blog post as a Soapbox review.
+
+
+If you'd like to know more about it, "here are more details":http://soapboxit.com/info/for_bloggers.
