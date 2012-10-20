@@ -1,0 +1,11 @@
+--- 
+title: Zippy Soapadoo
+typo_id: 2667
+---
+I was recently able to give "Soapadoo":http://soapadoo.com a nice little performance makeover.   The site is now considerably faster than it's ever been.  It's quite evident clicking around the site that the performance improvements are significant.  For the curious geeks out there, here are some of the things I did:
+
+* I changed to a different hosting company.  Soapadoo used to be hosted on "OCS Solutions":http://ocssolutions.com.  Now it's hosted on "Slicehost":http://slicehost.com.  Reason: twice the memory for less money.
+* I'm no longer using "Lighty":http://www.lighttpd.net.  Soapadoo is now being run by a cluster of "mongrels":http://mongrel.rubyforge.org sitting behind "Apache":http://httpd.apache.org.
+* I switched from "Debian":http://www.debian.org to "Ubuntu":http://www.ubuntu.com.
+* I switched from "Postgres":http://www.postgresql.org/ to "MySql":http://www.mysql.com.
+

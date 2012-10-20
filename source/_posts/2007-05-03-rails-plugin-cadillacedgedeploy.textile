@@ -1,0 +1,32 @@
+--- 
+title: Rails Plugin - cadillac_edge_deploy
+---
+Is your deployed rails application frozen to a particular revision?  If so, when a new version of rails is released how easy is it for you to upgrade?
+
+Are you living on the edge of rails?  If so, how do you move to a more recent revision when you notice an enhancement you want to take advantage of?
+
+Switching to a different version of rails should be easy.  
+
+"Mike Clark":http://www.clarkware.com/about.html described a number of ways to manage your rails versions in "this blog post":http://clarkware.com/cgi/blosxom/2007/01/18#ManagingVersionsWithCap.
+
+Mike wrote of a "Cadillac Edge Deploy Approach" in referring to Rick Olson's code that makes managing rails versions quite cinchy. 
+
+This plugin is basically a rip-off of that blog post and Rick's code.  
+
+I refactored things a bit primarily because I needed the approach to work even if Rails wasn't installed on the server I was deploying to. I've also changed it since to work with git rather than svn.
+
+To use the plugin, all you need to do is add the following to your deploy.rb:
+
+
+{% highlight ruby %}
+set :rails_revision, '745359a49452da34978724144eaa318b8a363e08'
+{% endhighlight %}
+
+
+When you'd like the server to start using a different revision of rails, just adjust the rails_revision variable.
+
+To install the plugin:
+
+{% highlight bash %}
+./script/plugin install git://github.com/duff/cadillac_edge_deploy.git
+{% endhighlight %}

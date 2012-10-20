@@ -1,0 +1,16 @@
+--- 
+title: "TDD - Rails integration style "
+---
+I've been writing unit tests for many years.  I can't live without them.  Writing code from a test-driven perspective became second nature for me a long time ago.  
+
+I've played with Rails integration tests on a few different projects now and each time I did, I found that there was a slight learning curve for using them.  I also found that the tests were often larger than the code I was actually testing.  The tests seemed brittle and they seemed to take *such* a long time to write.  
+
+Recently I decided that I just needed to keep writing them for awhile to see if I could get good enough at them such that they were no longer a burden to write.  A conversation with "Robert":http://creativi.st/blog/ certainly played a part in this decision.  Since I was working on a personal project this past week, it was a perfect opportunity.
+
+What I've found is this.  Rails integration tests are amazing.  They were taking such a long time to write because I was new at it.  They were brittle because I didn't know what I was doing.  The tests were long because I was testing things more than once and I wasn't refactoring to a Domain Specific Language (DSL) "like Jamis wrote about":http://weblog.jamisbuck.org/2006/3/9/integration-testing-in-rails-1-1.
+
+The result is that my integration tests are now slim.  They're cinchy to write and they're getting easier as the DSL for the project improves.  I've gotten good enough at it that I can now write the integration test before implementing the feature.  They're not taking very long to write at all.  It feels amazing knowing that the regression tests are accumulating and it's becoming harder and harder to break the site I'm working on.  
+
+I realize now that the unit testing I did when starting out wasn't test-driven at all.  I wrote unit tests after I wrote the code I was testing.  After developing some competence, I was able to switch over to test-driven unit tests.  A similar process has now happened with integration tests.      
+
+The 2 or 3 days it took to get up to speed was quite worth it.

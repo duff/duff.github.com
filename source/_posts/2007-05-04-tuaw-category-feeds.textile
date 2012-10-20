@@ -1,0 +1,8 @@
+--- 
+title: TUAW category feeds
+---
+I've been subscribed to the "Unofficial Apple Weblog (TUAW)":http://tuaw.com for quite awhile.  It's in my NetNewsWire folder entitled "Can't Keep Up" (the place containing feeds that have so much content that I'll never be able to read them all.)
+
+I'm probably the last person in the Mac universe to realize that there are "category specific feeds":http://www.m.tuaw.com/feeds/ available so that you can subscribe to a subset of TUAW.  This is outstanding because there are certainly parts of TUAW that are quite interesting to me.
+
+I started out by subscribing to the following categories: Mac 101, Hacks, Tips and Tricks, Cool Tools, Terminal Tips, How To's, and Productivity.  

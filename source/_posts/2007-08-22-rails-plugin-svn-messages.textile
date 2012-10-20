@@ -1,0 +1,40 @@
+--- 
+title: Rails Plugin - svn_messages
+---
+*UPDATE:* This plugin "has been updated":/blog/2008/01/08/rails-plugin-svn_messages-updated.
+
+I created a rails plugin to help me keep clients up to date on the status of projects.  I use it in 2 instances - whenever I deploy a site, and whenever I send a weekly status report.  For a deployment this is what I type at the command line:
+
+<pre>
+rake svn:messages r=70
+</pre>
+
+70 is the oldest subversion revision I care about.  This gives me the following output:
+
+<pre>
+* Started adding user registration system. (domelia)
+* Now translating validation errors and their attribute names. (domelia)
+* Reorganized views a bit. (domelia)
+* Now sending activation email when user signs up. (domelia)
+* Added support for "remember me" when logging in. (domelia)
+</pre>
+
+For my deployment report, I typically remove the svn messages that aren't immediately visible in the site or that don't matter too much to the client.  So, I'd remove "reorganized views a bit".  
+
+For a weekly status report, I only care about the svn commits that I personally made.  In that case, I'd say something like:
+
+<pre>
+rake svn:messages r=32 u=domelia
+</pre>
+
+This would give me similar output, except it will only show me the commits made by the domelia user.  
+
+I like the plugin because I can keep clients up to date and spend very little time doing it.
+
+To install:
+
+<pre>
+svn export https://terralien.devguard.com/svn/projects/plugins/svn_messages vendor/plugins/svn_messages
+</pre>
+
+
