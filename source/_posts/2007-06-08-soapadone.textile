@@ -1,8 +1,8 @@
---- 
-title: Soapadone
-typo_id: 5423
 ---
-!/files/soapadoo.jpg! 
+title: Soapadone
+layout: post
+---
+!/files/soapadoo.jpg!
 
 One of the businesses I've spent a good amount of time on is Soapadoo.  A few days ago, the server that Soapadoo was hosted on had some issues in that suddenly some directories were missing.  In working with the hosting provider, we weren't able to determine the cause.  It's strange because the site had been running for about a year and nothing like this issue had ever happened before.
 
@@ -18,4 +18,4 @@ I've decided not to bring Soapadoo back.  Some of the reasons include:
 
 It's always a tough question about whether to "persevere or change gears":/blog/2007/01/06/to-quit-or-persevere to work on something different.  At this point, the other business opportunities I'm pursuing seem to have much more potential than Soapadoo.
 
-For those Soapadoo users who would like a copy of their reviews, just send me an email about it and I can get you a copy in a number of different formats.  
+For those Soapadoo users who would like a copy of their reviews, just send me an email about it and I can get you a copy in a number of different formats.

@@ -1,8 +1,8 @@
---- 
-title: Less time, more done?
-typo_id: 5527
 ---
-!<{margin-right:20px}/files/half-clock.jpg!  
+title: "Less time, more done?"
+layout: post
+---
+!<{margin-right:20px}/files/half-clock.jpg!
 
 For the past year and a half or so, I decided to spend less time consulting and more time creating businesses.  For a long time I knew that I wanted to be an entrepreneur, but I wasn't really spending any time doing it.  It took me a few years actually to make the realization that if you want something to happen, you need to spend some time working toward the goal in a disciplined way.
 
@@ -10,6 +10,6 @@ So I had decided to spend about 30 hours consulting per week rather than the typ
 
 It's amazing what can be accomplished in about 10 hours per week.  I've been quite surprised about it.  Here's what I mean.  Let's say I have a project that I think will take about a month to complete if I were working on it full time.  At the normal 40 hours per week that would work out to be about 160 hours for this project.  If I only worked on it for 10 hours per week, I would have thought that it would take me 16 weeks to complete the project.
 
-It turns that it's been taking me much less time than I anticipated. I would have thought that because I was working 1/4 of the time, I would only accomplish 1/4 of the work.  Instead, it seems as though I'm accomplishing much more than 1/4 of the work in that time.  How is that possible?  Why is it that I feel so productive for those 10 hours?  
+It turns that it's been taking me much less time than I anticipated. I would have thought that because I was working 1/4 of the time, I would only accomplish 1/4 of the work.  Instead, it seems as though I'm accomplishing much more than 1/4 of the work in that time.  How is that possible?  Why is it that I feel so productive for those 10 hours?
 
 I think it's because there's a whole bunch of time during the week that I'm not working the project.  By the time I'm ready to do some actual work on it, I've spent a ton of time mulling over things and making determinations about what the next steps should be.  These determinations are often not even conscious thoughts.  But by the time I'm ready to pick up that project again, I feel like I'm ready to code like the wind.

@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "One Person Makes a Difference"
 ---
 
 We've all had experiences as a customer when we've heard things like "I don't have the authority to do that" or "Sorry, we have this policy...".

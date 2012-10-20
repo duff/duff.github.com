@@ -1,14 +1,14 @@
---- 
-title: Custom Mephisto
 ---
-I've really been enjoying "Mephisto":http://mephisto.stikipad.com/help/, the blogging software that's running this site.  
+layout: post
+---
+I've really been enjoying "Mephisto":http://mephisto.stikipad.com/help/, the blogging software that's running this site.
 
-I wanted to create "another blog for some reviews":http://revnut.com I've written.  So I started with the standard Mephisto and chose a theme from a "Mephisto theme gallery":http://mephisto-themes.nanorails.com/gallery and things were looking pretty nice.  Then I wanted to start making some customizations.  I considered using the plugin system that ships with Mephisto but I thought I'd just opt for a completely custom system and see if it would be difficult to have complete flexibility.  
+I wanted to create "another blog for some reviews":http://revnut.com I've written.  So I started with the standard Mephisto and chose a theme from a "Mephisto theme gallery":http://mephisto-themes.nanorails.com/gallery and things were looking pretty nice.  Then I wanted to start making some customizations.  I considered using the plugin system that ships with Mephisto but I thought I'd just opt for a completely custom system and see if it would be difficult to have complete flexibility.
 
-It turns out that it was super cinchy to do.  Mephisto is open source, and it's a well-written rails app.  The technology world sure is changing in some fascinating ways.  When you put some things together like "ruby":http://www.ruby-lang.org/en/, "rails":http://www.rubyonrails.org/, "open source":http://en.wikipedia.org/wiki/Open_source, the "mac":http://www.apple.com/mac/, "quicksilver":http://quicksilver.blacktree.com/, and "textmate":http://macromates.com/, things start to get pretty exciting for developers. 
+It turns out that it was super cinchy to do.  Mephisto is open source, and it's a well-written rails app.  The technology world sure is changing in some fascinating ways.  When you put some things together like "ruby":http://www.ruby-lang.org/en/, "rails":http://www.rubyonrails.org/, "open source":http://en.wikipedia.org/wiki/Open_source, the "mac":http://www.apple.com/mac/, "quicksilver":http://quicksilver.blacktree.com/, and "textmate":http://macromates.com/, things start to get pretty exciting for developers.
 
-I've made a few customizations so far and I'm not sure if I'll ever want to customize it further.  For now though, it's much easier to mark a review as thumbs up or thumbs down and it's easy to specify an amazon url for a review and know that it'll show up with the correct amazon associates url.  
+I've made a few customizations so far and I'm not sure if I'll ever want to customize it further.  For now though, it's much easier to mark a review as thumbs up or thumbs down and it's easy to specify an amazon url for a review and know that it'll show up with the correct amazon associates url.
 
-One of the many amazing things about Rails is that you can so easily sit down and *completely* modify a Rails app you've never seen before, primarily because the framework makes it painful to step outside convention.  I couldn't even imagine doing something like this in some of the other web frameworks out there.     
+One of the many amazing things about Rails is that you can so easily sit down and *completely* modify a Rails app you've never seen before, primarily because the framework makes it painful to step outside convention.  I couldn't even imagine doing something like this in some of the other web frameworks out there.
 
 Here's what "Revnut":http://revnut.com looks like so far.

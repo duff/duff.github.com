@@ -1,6 +1,5 @@
---- 
-title: No Kahuna
-typo_id: 5591
+---
+layout: post
 ---
 My friend "Alex":http://plasticshore.com/ and I spent 2 full days last week creating "No Kahuna":http://nokahuna.com.  It was an intense and quite enjoyable 48 hour burst of design and development.  We can't wait to see what the world thinks of it.
 

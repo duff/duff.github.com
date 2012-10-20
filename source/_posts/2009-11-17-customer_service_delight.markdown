@@ -1,5 +1,6 @@
 ---
 layout: post
+title: "Customer Service Delight"
 ---
 
 In [writing about customer service](http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html), Seth Godin has said that 

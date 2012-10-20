@@ -1,5 +1,6 @@
---- 
-title: Rails Plugin - svn_messages
+---
+title: Rails Plugin - SVN messages
+layout: post
 ---
 *UPDATE:* This plugin "has been updated":/blog/2008/01/08/rails-plugin-svn_messages-updated.
 
@@ -19,7 +20,7 @@ rake svn:messages r=70
 * Added support for "remember me" when logging in. (domelia)
 </pre>
 
-For my deployment report, I typically remove the svn messages that aren't immediately visible in the site or that don't matter too much to the client.  So, I'd remove "reorganized views a bit".  
+For my deployment report, I typically remove the svn messages that aren't immediately visible in the site or that don't matter too much to the client.  So, I'd remove "reorganized views a bit".
 
 For a weekly status report, I only care about the svn commits that I personally made.  In that case, I'd say something like:
 
@@ -27,7 +28,7 @@ For a weekly status report, I only care about the svn commits that I personally 
 rake svn:messages r=32 u=domelia
 </pre>
 
-This would give me similar output, except it will only show me the commits made by the domelia user.  
+This would give me similar output, except it will only show me the commits made by the domelia user.
 
 I like the plugin because I can keep clients up to date and spend very little time doing it.
 

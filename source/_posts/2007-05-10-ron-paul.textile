@@ -1,6 +1,6 @@
---- 
+---
 title: Ron Paul
-typo_id: 4736
+layout: post
 ---
 I've never really blogged about politics before, but I must say that "Ron Paul":http://ronpaul2008.com/ looks like an excellent candidate for President in 2008.
 

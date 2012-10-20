@@ -1,6 +1,6 @@
---- 
-title: The Art of Innovation
-typo_id: 5587
+---
+title: "The Art of Innovation"
+layout: post
 ---
 I found this excellent talk by Guy Kawasaki to be quite motivational:
 

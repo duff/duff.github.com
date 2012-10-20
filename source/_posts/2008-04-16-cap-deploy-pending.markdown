@@ -5,21 +5,19 @@ Running \`cap deploy:pending\` displays the commits since your last deploy.  I w
 
 Specifically, I wanted the output to look something like this:
 
-{% highlight text %}
-
+``` text
 Deployment revision 49c45b7
 I deployed the latest. It includes:
 
 * Added avatar support  (Duff)
 * Cleaned up the project switcher  (Alex)
-{% endhighlight %}
+```
 
 To do that, I added the following capistrano recipe:
 
 
 
-{% highlight ruby %}
-
+``` ruby
 namespace :deploy do
   namespace :pending do
     desc <<-DESC
@@ -35,16 +33,16 @@ namespace :deploy do
       system(%Q{git log --no-merges --pretty=format:"* %s %b (%cn)" #{deployed_already}.. | replace '<unknown>' ''})
       puts "\n\n\n"
     end
-  
+
   end
 end
-{% endhighlight %}
+```
 
 Then I added a hook in my deploy.rb to run this automatically whenever someone deploys:
 
-{% highlight ruby %}
-before "deploy:update_code", "deploy:pending:default" 
-{% endhighlight %}
+``` ruby
+before "deploy:update_code", "deploy:pending:default"
+```
 
 
 The next piece of automation I'd like is to have it automatically post a message to [basecamp](http://basecamphq.com/).
