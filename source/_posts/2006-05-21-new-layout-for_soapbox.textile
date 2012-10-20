@@ -1,0 +1,7 @@
+--- 
+title: New Soapbox skin
+typo_id: 7
+---
+Richard Powell from "Samedis":http://samedis.com has done an amazing job on the first pass of the new "Soapbox":http://soapboxit.com skin.  There are still a few things we need to do before starting to market the site in earnest, but the first pass is such an incredible improvement I had to mention it here.  
+
+I'm getting more and more excited to see if the site becomes useful to people.  
