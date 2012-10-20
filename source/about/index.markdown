@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "about me"
+title: "About"
 subtitle: "Random bits of questionable interest"
 comments: false
 sharing: false
