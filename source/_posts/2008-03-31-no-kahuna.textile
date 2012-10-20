@@ -1,0 +1,9 @@
+--- 
+title: No Kahuna
+typo_id: 5591
+---
+My friend "Alex":http://plasticshore.com/ and I spent 2 full days last week creating "No Kahuna":http://nokahuna.com.  It was an intense and quite enjoyable 48 hour burst of design and development.  We can't wait to see what the world thinks of it.
+
+Of course, we used "Spreedly":http://spreedly.com to handle our subscriptions and payments.  Without "Spreedly":http://spreedly.com or something like it, going live in that time frame with a subscription-based web site capable of collecting real money would be pretty difficult if not impossible.
+
+I hope you can "give it a try":http://nokahuna.com.

@@ -1,0 +1,5 @@
+--- 
+title: Spreedly
+typo_id: 5585
+---
+I've spent the last few months working on "Spreedly":http://spreedly.com with 3 friends.  It's been a wonderful experience working together to create a business.  

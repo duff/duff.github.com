@@ -1,0 +1,15 @@
+--- 
+title: Ready for real customers?
+typo_id: 5593
+---
+You're creating a website that you'd like to release to the general public.  One of the questions that needs answering is, which features do you need to make it to that first release?
+
+I've been enjoying creating sites that I personally use like "Spreedly":http://spreedly.com and "No Kahuna":http://nokahuna.com.  When I'm an actual user of the site I'm making, it makes the decision about what to implement a bit easier.
+
+The goal is to get to market and have the site being used by *real* customers as quickly as possible.  For No Kahuna, that happened in 2 days.  Spreedly took many weeks of effort before a real customer started using it.  To release to a real customer, we're only trying to make something that's slightly better than what's out there.  We're only trying to provide *some* value to the customer, not all of the value we're ever going to provide.  Does the site in its current state improve the lives of our customers?
+
+When you're your own customer, this becomes fun because you're only working on the features that you're quite sure would improve your life.  If you're at all unsure whether a feature provides value, defer it.  *Only* do the stuff you're confident about.  This is fine because you'll be released soon, and then customers will start giving you *real* feedback which is much more valuable than your guesses about what's important.
+
+Once you're released, then you need to be judicious about which features to implement and be willing to say no to many requests from customers.  In "Getting Real":http://www.37signals.com/svn/archives2/getting_real_forget_feature_requests.php, the 37 Signals guys said this:
+
+bq. And one more thing: it's not just about the sheer number of requests (we don't recommend adding something just because X# of people requested it), it's about customers planting a seed in your mind. If they keep reminding you of something, it forces you to think about it. Maybe it is a good idea. Maybe it isn't. But at least it's important enough to consider if so many people keep asking for it.

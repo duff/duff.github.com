@@ -1,0 +1,9 @@
+--- 
+title: The Art of Innovation
+typo_id: 5587
+---
+I found this excellent talk by Guy Kawasaki to be quite motivational:
+
+<embed style="width:400px; height:326px;" id="VideoPlayback" type="application/x-shockwave-flash" src="http://video.google.com/googleplayer.swf?docId=-3459408090550854446&hl=en" flashvars=""> </embed>
+
+
