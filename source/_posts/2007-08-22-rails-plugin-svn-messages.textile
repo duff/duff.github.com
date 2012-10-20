@@ -1,5 +1,5 @@
 ---
-title: Rails Plugin - SVN messages
+title: Rails Plugin - svn_messages
 layout: post
 ---
 *UPDATE:* This plugin "has been updated":/blog/2008/01/08/rails-plugin-svn_messages-updated.

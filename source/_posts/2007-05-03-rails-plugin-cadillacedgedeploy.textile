@@ -1,5 +1,5 @@
 ---
-title: Rails Plugin - Cadillac Edge Deploy
+title: Rails Plugin - cadillac_edge_deploy
 layout: post
 ---
 Is your deployed rails application frozen to a particular revision?  If so, when a new version of rails is released how easy is it for you to upgrade?

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Rails Plugin SVN messages Updated"
+title: "Rails Plugin svn_messages Updated"
 ---
 
 I created a rails plugin to help me keep clients up to date on the status of projects.  This post is an update to [the original]( /blog/2007/08/22/rails-plugin-svn-messages ) svn_messages plugin.
