@@ -1,2 +1,15 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+.work {
+  margin-top: 26px;
+  border-bottom: 1px solid $sidebar-border;
+
+  img {
+    width: 128px;
+    float: left;
+  }
+  p, h3 {
+    margin-left: 154px;
+  }
+}
