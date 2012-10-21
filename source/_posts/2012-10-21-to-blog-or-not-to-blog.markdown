@@ -4,7 +4,7 @@ title: "To Blog or Not to Blog"
 date: 2012-10-21 15:30
 ---
 
-Marco Arment's blog post about [lasting value](http://www.marco.org/2012/05/03/lasting-value) caused me to re-assess what on earth I'm doing with this site and whether I ought to even have it.  I
+Marco Arment's blog post about [lasting value](http://www.marco.org/2012/05/03/lasting-value) caused me to reassess what on earth I'm doing with this site and whether I ought to even have it.  I
 can certainly understand the perspective of [shutting down a site](http://weblog.jamisbuck.org/2011/9/1/shutting-down) if it's something you're no longer passionate about.
 
 For me, I've never been extremely passionate about blogging; but it is nice to at least have a place to occasionally express a thought that gets captured and remembered.  Looking back on the posts
