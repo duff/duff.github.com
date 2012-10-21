@@ -16,6 +16,6 @@ you've improved as a coder and the way you're doing things now is so much better
 
 So I'm keeping the blog around with no pressure to regularly add posts.  I know there will be posts that potentially reveal a lack of intelligence on my part.  But that's ok too.
 
-Perhaps a blog post can simply be a thought or idea that doesn't fit in an App.net post or a tweet.  Perhaps it's just a glimpse into where I'm at right now.
+Perhaps a blog post can simply be a thought or idea that doesn't fit in an [App.net](http://alpha.app.net/duff) post or a tweet.  Perhaps it's just a glimpse into where I'm at right now.
 
 
