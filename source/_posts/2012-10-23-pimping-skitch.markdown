@@ -15,7 +15,8 @@ see the images.  I noticed my friend Brandon [was now using CloudApp](https://al
 up with:
 
 <!-- more -->
-First, a [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macro that's only available when Skitch is the activated application.  Here's what it looks like:
+I'm still using Skitch to take the screenshot and edit the image. Then I trigger a [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macro that's only
+available when Skitch is the activated application.  Here's what it looks like:
 
 ![SkitchKeyboardMaestro](/files/skitch_keyboard_maestro.png)
 
