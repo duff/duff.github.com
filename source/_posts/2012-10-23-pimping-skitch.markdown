@@ -31,12 +31,12 @@ Here's the little shell script:
 #!/usr/bin/env ruby
 
 def clipboard
-  clipboard_value = IO.popen('pbpaste', 'r+').read
-  unless clipboard_value.include?("http://img.duffomelia.com")
-    puts "The url in the clipboard must start with http://img.duffomelia.com"
+  value = IO.popen('pbpaste', 'r+').read
+  unless value.include?("http://cl.ly")
+    puts "The url in the clipboard must start with http://cl.ly"
     exit 0
   end
-  clipboard_value
+  value
 end
 
 image_url = "#{clipboard}/content.png"
@@ -50,4 +50,4 @@ The *puts* lines show up on my screen briefly because of this in the Keyboard Ma
 
 After that one keystroke, my clipboard now has the url.  It looks something like this:
 
-[http://img.duffomelia.com/image/1d203y3n3V2G/content.png]( http://img.duffomelia.com/image/1d203y3n3V2G/content.png )
+[http://cl.ly/image/2f2u1J2j2b2z/content.png](http://cl.ly/image/2f2u1J2j2b2z/content.png)
