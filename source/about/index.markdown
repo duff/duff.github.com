@@ -16,3 +16,4 @@ I cofounded [Spreedly](http://spreedly.com).
 
 I've written some code on [GitHub](http://github.com/duff).
 
+![OMelia Family 2012](/files/omelia_family_2012.jpg)
