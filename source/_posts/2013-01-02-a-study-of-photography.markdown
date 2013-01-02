@@ -11,7 +11,7 @@ Fast forward a few years to meeting [Alex Kohlhofer](http://kohlhofer.com) who e
 
 <!-- more -->
 
-Then there was the brief time of me trying to learn about aperture, shutter speed, and ISO using our old point an shoot camera.  That's not easy.  And the pictures were worse than using auto mode.
+Then there was the brief time when I tried to learn about aperture, shutter speed, and ISO using our old point an shoot camera.  That's not easy.  And the pictures were worse than using auto mode.
 
 We were recently given a wonderful gift card to Amazon.  [Kell](http://kellyomelia.com) mentioned that we might want to consider getting a camera to allow us to actually take some pictures of the kids while they're in motion.  I've had difficulty thinking about much of anything since she made that suggestion.  Using our iPhones to take family pictures is great since the phones are with us all of the time.  Picture quality certainly suffers though, especially when the primary subjects *never* seem to STOP MOVING.
 
