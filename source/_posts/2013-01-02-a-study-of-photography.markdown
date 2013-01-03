@@ -7,7 +7,8 @@ published: true
 
 It all started back in 2009 at LessConf when [Brandon Mathis](http://brandonmathis.com) showed me [an amazing picture](http://twitpic.com/lqool/full) he had taken of his son Caleb.  The twitpic version of the picture doesn't do it justice.  Brandon had showed me the real image on his laptop.  One of the dangers of hanging out at a conference with creative folks who make things is that their enthusiasm can be quite contagious.  In this case, Brandon answered all of my questions and made some recommendations as to how I might learn some of the basics.  His passion and excitement for the art of photography certainly piqued my interest in the subject.
 
-Fast forward a few years to meeting [Alex Kohlhofer](http://kohlhofer.com) who explained how having a DSLR camera was great but challenging, since its unwieldy size means you rarely have it with you.  He then showed me his [new camera](http://www.dpreview.com/reviews/panasonicdmclx3/2) which was much smaller and easier to carry.  Even though it was small, it was clearly made for enthusiasts since it so easily allowed the most important settings to be adjusted without having to go 3 levels deep into an LCD menu screen.  It also took much better pictures than a run-of-the mill point and shoot.  Alex was thrilled with it.
+Fast forward a few years to meeting [Alex Kohlhofer](http://kohlhofer.com) who explained how having a DSLR camera was great but challenging, since its
+unwieldy size means you rarely have it with you.  He then showed me his [new Lumix LX3](http://www.dpreview.com/reviews/panasonicdmclx3/2) which was much smaller and easier to carry.  Even though it was small, it was clearly made for enthusiasts since it so easily allowed the most important settings to be adjusted without having to go 3 levels deep into an LCD menu screen.  It also took much better pictures than a run-of-the mill point and shoot.  Alex was thrilled with it.
 
 <!-- more -->
 
