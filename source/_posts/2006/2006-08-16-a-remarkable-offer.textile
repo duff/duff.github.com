@@ -2,7 +2,7 @@
 title: A Remarkable Offer
 layout: post
 ---
-!<{margin-right:20px}/files/purple_cow.jpg!
+{% img left /images/posts/2006/purple_cow.jpg %}
 
 As many of you know, I'm diligently trying to make "Soapbox":http://soapboxit.com *so* remarkable that customers feel that they *need* to tell their friends about the site.  "Seth Godin's Books":http://www.amazon.com/gp/redirect.html?link_code=ur2&tag=realreviews-20&camp=1789&creative=9325&location=/gp/search%3F%26index=books%26keywords=Seth%20Godin%26_encoding=UTF8 have taught me that passionate customers can do a much better job of marketing than I can.  I'm a huge fan of "Seth Godin":http://soapboxit.com/review/172.
 

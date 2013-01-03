@@ -2,7 +2,7 @@
 title: Is Any Progress Being Made?
 layout: post
 ---
-!/files/Turtle.gif!
+{% img left /images/posts/2006/turtle.gif %}
 
 I've often had days when I wonder if I'm making any progress at all toward some long-term goals.  It seems pretty easy to think this way given that the goals are long-term and we often only consider the hear and the now.  These _questions of progress_ can do some good.  They can also hurt.
 

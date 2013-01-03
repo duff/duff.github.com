@@ -2,7 +2,8 @@
 title: Hearing "No"
 layout: post
 ---
-!/files/do-not-enter.gif!
+
+{% img right /images/posts/2006/do-not-enter.gif %}
 
 It seems that every life story I've read about successful entrepreneurs includes them being told over and over again that they're idea couldn't possibly work.  Here are some of the forms of "No" that are often heard:
 * "I doubt anyone would want that".

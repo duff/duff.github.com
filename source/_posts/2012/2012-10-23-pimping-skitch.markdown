@@ -18,7 +18,7 @@ up with:
 I'm still using Skitch to take the screenshot and edit the image. Then I trigger a [Keyboard Maestro](http://www.keyboardmaestro.com/main/) macro that's only
 available when Skitch is the activated application.  Here's what it looks like:
 
-<img src="/files/skitch_keyboard_maestro.png" width="480px" />
+{% img center /images/posts/2012/skitch_keyboard_maestro.png 480 %}
 
 That one keystroke copies the skitch image to the clipboard, triggers the keyboard shortcut to send it to [CloudApp](http://getcloudapp.com), waits until the
 clipboard contains the CloudApp url, and then runs a shell script to get the url of the image itself rather than a url to a page containing the image.  Getting the
@@ -46,7 +46,7 @@ IO.popen('pbcopy', 'w').print image_url
 ```
 The *puts* lines show up on my screen briefly because of this in the Keyboard Maestro macro:
 
-<img src="/files/display_results_briefly.png" width="480px" />
+{% img center /images/posts/2012/display_results_briefly.png 480 %}
 
 After that one keystroke, my clipboard now has the url.  It looks something like this:
 

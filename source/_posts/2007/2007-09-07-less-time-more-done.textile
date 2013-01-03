@@ -2,7 +2,7 @@
 title: "Less time, more done?"
 layout: post
 ---
-!<{margin-right:20px}/files/half-clock.jpg!
+{% img left /images/posts/2007/half_clock.jpg %}
 
 For the past year and a half or so, I decided to spend less time consulting and more time creating businesses.  For a long time I knew that I wanted to be an entrepreneur, but I wasn't really spending any time doing it.  It took me a few years actually to make the realization that if you want something to happen, you need to spend some time working toward the goal in a disciplined way.
 

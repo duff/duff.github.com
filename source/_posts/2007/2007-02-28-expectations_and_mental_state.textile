@@ -2,7 +2,7 @@
 title: Expectations and Mental State
 layout: post
 ---
-!/files/happy_sad_face.jpg!
+{% img left /images/posts/2007/happy_sad_face.jpg %}
 
 I've been wondering about how much of our mental state is based solely on our expectations.
 

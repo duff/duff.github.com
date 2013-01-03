@@ -2,7 +2,10 @@
 title: "\"I've got no time\""
 layout: post
 ---
-<img src="/files/real_backward_clock.jpg" width=100/> It's something we've all heard before and it's something we've all said at some point.  In a "previous post":/blog/2006/04/18/dont-you-need-a-ton-of-money-to-create-a-business, I wrote about not needing a ton of money to create a business.  Instead, we can use our time and energy to get things started.  The question I'd like to address is how do we find the time to achieve the goals we've set out to achieve when it feels like there's not enough time in the day?
+
+{% img left /images/posts/2006/real_backward_clock.jpg 140 %}
+
+It's something we've all heard before and it's something we've all said at some point.  In a "previous post":/blog/2006/04/18/dont-you-need-a-ton-of-money-to-create-a-business, I wrote about not needing a ton of money to create a business.  Instead, we can use our time and energy to get things started.  The question I'd like to address is how do we find the time to achieve the goals we've set out to achieve when it feels like there's not enough time in the day?
 
 I've come to the conclusion recently that if you want to achieve a long term goal, you've got to spend some bit of time on it every single day (or better yet 6 days a week.)  If you're not taking a step toward that goal each day, that goal just never seems to get accomplished.
 

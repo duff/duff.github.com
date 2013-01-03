@@ -2,7 +2,7 @@
 title: A Remarkable Offer Part 2
 layout: post
 ---
-!<{margin-right:20px}/files/godin.jpg!
+{% img right /images/posts/2006/seth_godin.jpg %}
 
 I wanted to mention that I recently took part in the Q&A session that "Seth Godin":http://www.squidoo.com/seth offered to people buying 11 copies of his book.  I won't go into any details, but suffice it to say that it was incredible.  He is a marketing super genius and he had a huge impact on the entrepreneurs on the phone call.  I greatly enjoyed it.
 

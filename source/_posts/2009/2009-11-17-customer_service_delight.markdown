@@ -3,9 +3,9 @@ layout: post
 title: "Customer Service Delight"
 ---
 
-In [writing about customer service](http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html), Seth Godin has said that 
-
-> every interaction matters and every customer is precious... Every interaction is both precious and an opportunity to delight.
+{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to island marketing %}
+every interaction matters and every customer is precious... Every interaction is both precious and an opportunity to delight.
+{% endblockquote %}
 
 I think this is extremely wise advice and it's incredibly difficult to implement.  It takes time, effort, patience, and perseverance.  It takes love.
 It takes actually caring about the person on the other end of the support request.

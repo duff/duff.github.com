@@ -2,7 +2,7 @@
 title: Stop the Sprint
 layout: post
 ---
-!<{margin-right:20px}/files/skater.jpg!
+{% img right /images/posts/2006/skater.jpg %}
 
 I recently learned a few lessons about planning and achieving long term objectives.
 

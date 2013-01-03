@@ -2,7 +2,7 @@
 title: Business Reps
 layout: post
 ---
-!/files/images-3.jpg!
+{% img left /images/posts/2006/mouse_reps.jpg %}
 
 Most people don't expect to be great at something the first time they try it.  As a programmer, the first few applications I created were pretty horrible.  When my 6 year old daughter Madeline started roller blading, she was pathetic.  The first year I had a garden in the yard, the results were clearly sub-optimal.  I've been trading the stock market for over 3 years and I'm still an awful trader.  Come to think of it, most of the things I've worked on in my life started out in pretty sorry shape.  The areas I've been able to develop any skill are the ones I was able to stick with through the "hard".  If there wasn't a hard part to developing the skill, then everyone would have the ability and it wouldn't be that valuable.  The people with perseverance and discipline are the ones who develop worthwhile skills over the *long term*.
 

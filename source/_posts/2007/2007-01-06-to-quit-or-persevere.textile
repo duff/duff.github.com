@@ -3,11 +3,11 @@ title: To Quit or Persevere
 layout: post
 ---
 
-In "Seth Godin's blog post about strategy":http://sethgodin.typepad.com/seths_blog/2007/01/the_difference_.html, he says:
+{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2007/01/the_difference_.html The difference between strategy and tactics %}
+It takes real guts to abandon a strategy, especially if you've gotten super good at the tactics. That's precisely the reason that switching strategies is often such a good idea. Because your competition is afraid to.
+{% endblockquote %}
 
-bq. _It takes real guts to abandon a strategy, especially if you've gotten super good at the tactics. That's precisely the reason that switching strategies is often such a good idea. Because your competition is afraid to._
-
-<img src="/files/heading_quitting_time.gif" width=140/>
+{% img right /images/posts/2007/heading_quitting_time.gif 200 %}
 
 I agree with him.  Abandoning a strategy is often a good idea.
 

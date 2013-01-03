@@ -12,7 +12,7 @@ I've been one of those whiners by having this blog.  One could write a blog entr
 
 That's about to change.
 
-!>/files/seastead.jpg!:http://www.flickr.com/photos/27160491@N06/2534565082/sizes/l/
+{% img right /images/posts/2008/seastead.jpg %}
 
 I think that "Seasteading":http://seasteading.org/ will become a reality.  I think it'll be the first nation creation idea that will actually work.  I've "read their book":http://seasteading.org/seastead.org/book_beta/full_book_beta.html.  I've read every entry "on their blog":http://seasteading.org/stay-in-touch/blog.  They have an impressive plan.  I didn't know that it was possible to create a floating structure that doesn't rock with the waves.  I'd really like to see this in action.  If this works, it changes everything.  It could actually make governments more competitive since it gives people more of an opportunity to vote with their feet.
 
