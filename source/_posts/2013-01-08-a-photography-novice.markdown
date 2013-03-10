@@ -11,6 +11,8 @@ It's been a few short days since the [photography experiment](/blog/2013/01/02/a
 
 I've been learning about RAW versus JPG.  I've been learning to delete most of the pictures I take because if I don't, I'll be buying more hard drives.  I've been learning about how to really use manual mode on the camera.
 
+<!-- more -->
+
 {% img center /images/posts/2013/01/homeschooling_has_begun.jpg %}
 
 I've been learning about how great [Aperture](http://www.apple.com/aperture/what-is.html) is at improving photos, especially if you didn't get the exposure just right.  I finally learned about white balance and how it was the cause of so many of my photos having an odd yellow tinge.
