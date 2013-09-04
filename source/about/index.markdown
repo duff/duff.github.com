@@ -8,7 +8,8 @@ footer: true
 ---
 I'm a husband, a dad, a programmer, and an entrepreneur.
 
-My wife [Kelly](http://kellyomelia.com) and I have 7 children.  We've put some pictures on [500px.com](http://500px.com/duff) and [Flickr](http://www.flickr.com/photos/omelia/) and we've shared some of the things [happening in our family](http://omeliaramble.com).  And I've shared things on [App.net](https://alpha.app.net/duff) and the [Twitter](http://twitter.com/duffomelia).
+My wife [Kelly](http://kellyomelia.com) and I have 7 children.  We've put some pictures on [500px.com](http://500px.com/duff) and
+[Flickr](http://www.flickr.com/photos/omelia/) and we've shared some of the things [happening in our family](http://ramble.omelia.org).  And I've shared things on [App.net](https://alpha.app.net/duff) and the [Twitter](http://twitter.com/duffomelia).
 
 I cofounded [Spreedly](http://spreedly.com).
 
