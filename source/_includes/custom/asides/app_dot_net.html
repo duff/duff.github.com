@@ -1,29 +1,5 @@
 <section>
-  <h1>On App.net</h1>
-  <script type="text/javascript">
-    $(document).ready(function(){
-        AdnTimeline.init({
-          render: (function(options, posts) {
-             var html, i, len
-             html  = '<ul id="tweets">'
-             for (i = 0, len = posts.length; i < len; i++) {
-               html += "<li>"
-               html += '<p>'
-               html += '<a href="' + posts[i].url + '">' + posts[i].display_date + '</a>'
-               html += posts[i].text
-               html += '</p>'
-               html += "</li>"
-               }
-               html += "</ul>"
-               options.el.append(html)
-             })
-          })
-        })
-  </script>
-  <div class='adn-timeline' data-username='duff' data-count='5'></div>
   <p>
-    <a href="https://alpha.app.net/duff" rel="me">@duff</a> on App.net
-    <br/>
     <a href="http://twitter.com/duffomelia">@duffomelia</a> on Twitter
   </p>
 </section>
