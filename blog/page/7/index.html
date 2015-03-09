@@ -1,0 +1,656 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Duff O'Melia</title>
+  <meta name="author" content="Duff O'Melia">
+
+  
+  <meta name="description" content="I&#8217;ve been wondering about how much of our mental state is based solely on our expectations.
+Consider this. The day begins and I plan on &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://duffomelia.com/blog/page/7/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/duffomelia" rel="alternate" title="Duff O'Melia" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script src="/javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery-cookie.min.js" type="text/javascript"></script>
+<script src="/javascripts/adn-timeline.min.js" type="text/javascript"></script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11551778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Duff O'Melia</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation">  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:duffomelia.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/work">Work</a></li>
+  <li><a href="/blog/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/02/28/expectations_and_mental_state/">Expectations and Mental State</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-28T00:00:00-05:00" pubdate data-updated="true">Feb 28<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><img class="left" src="/images/posts/2007/happy_sad_face.jpg"></p>
+<p>I&#8217;ve been wondering about how much of our mental state is based solely on our expectations.</p>
+<p>Consider this.  The day begins and I plan on accomplishing 10 specific tasks.  By the end of the day I&#8217;ve only achieved 6 of them.  I can feel discouraged.  I can feel like a failure.  I can feel as if I just wasn&#8217;t very productive.</p>
+<p>Now change the scenario just a bit.  The same day begins and I plan on accomplishing 4 specific tasks rather than the 10 I was predicting before.  I work just as hard and I&#8217;m just as productive so I get to the end of the day and I&#8217;ve accomplished those same 6 tasks.  I feel great!  I&#8217;m an efficient machine.    I accomplished 2 more tasks than I thought I would.  Can anything stop me?</p>
+<p>The only difference between the two scenarios was my prediction for how much I thought I&#8217;d accomplish.  I worked just as hard and just as efficiently but my mental state at the end of each scenario was markedly different.</p>
+<p>It&#8217;s interesting to me that we know that we&#8217;re not clairvoyant yet our mental state can be affected by our ability to predict the future.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/02/27/viewing-a-page-in-a-browser/">Viewing a Page in a Browser</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-27T00:00:00-05:00" pubdate data-updated="true">Feb 27<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been doing a bunch of integration testing of a rails site lately.  I have found it quite useful to be able to quickly view the current page in a browser.</p>
+
+<p>I added the following method to my integration testing DSL:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">module</span> <span class="nn">IntegrationDsl</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">view</span>
+</span><span class='line'>    <span class="n">filename</span> <span class="o">=</span> <span class="no">File</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="bp">__FILE__</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot;/integration/.integration_test_output_for_browser.html&quot;</span>
+</span><span class='line'>    <span class="no">File</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="s2">&quot;w+&quot;</span><span class="p">)</span> <span class="p">{</span> <span class="o">|</span> <span class="n">file</span> <span class="o">|</span> <span class="n">file</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">body</span><span class="p">)</span> <span class="p">}</span>
+</span><span class='line'>    <span class="sb">`open </span><span class="si">#{</span><span class="n">filename</span><span class="si">}</span><span class="sb">`</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>It simply writes out the response body to a file and then opens it (using the `open` on a mac).</p>
+
+<p>So now in my integration test, I can view the current page in a browser like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_feature</span>
+</span><span class='line'>  <span class="n">s</span> <span class="o">=</span> <span class="n">new_session_as</span> <span class="ss">:duff</span>
+</span><span class='line'>  <span class="n">s</span><span class="o">.</span><span class="n">view</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/02/27/tdd-rails-integration-style/">TDD - Rails Integration Style</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-27T00:00:00-05:00" pubdate data-updated="true">Feb 27<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;ve been writing unit tests for many years.  I can&#8217;t live without them.  Writing code from a test-driven perspective became second nature for me a long time ago.</p>
+<p>I&#8217;ve played with Rails integration tests on a few different projects now and each time I did, I found that there was a slight learning curve for using them.  I also found that the tests were often larger than the code I was actually testing.  The tests seemed brittle and they seemed to take <strong>such</strong> a long time to write.</p>
+<p>Recently I decided that I just needed to keep writing them for awhile to see if I could get good enough at them such that they were no longer a burden to write.  A conversation with <a href="http://creativi.st/blog/">Robert</a> certainly played a part in this decision.  Since I was working on a personal project this past week, it was a perfect opportunity.</p>
+<p>What I&#8217;ve found is this.  Rails integration tests are amazing.  They were taking such a long time to write because I was new at it.  They were brittle because I didn&#8217;t know what I was doing.  The tests were long because I was testing things more than once and I wasn&#8217;t refactoring to a Domain Specific Language (<span class="caps">DSL</span>) <a href="http://weblog.jamisbuck.org/2006/3/9/integration-testing-in-rails-1-1">like Jamis wrote about</a>.</p>
+<p>The result is that my integration tests are now slim.  They&#8217;re cinchy to write and they&#8217;re getting easier as the <span class="caps">DSL</span> for the project improves.  I&#8217;ve gotten good enough at it that I can now write the integration test before implementing the feature.  They&#8217;re not taking very long to write at all.  It feels amazing knowing that the regression tests are accumulating and it&#8217;s becoming harder and harder to break the site I&#8217;m working on.</p>
+<p>I realize now that the unit testing I did when starting out wasn&#8217;t test-driven at all.  I wrote unit tests after I wrote the code I was testing.  After developing some competence, I was able to switch over to test-driven unit tests.  A similar process has now happened with integration tests.</p>
+<p>The 2 or 3 days it took to get up to speed was quite worth it.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/02/27/clicking-a-link/">Clicking a Link</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-02-27T00:00:00-05:00" pubdate data-updated="true">Feb 27<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There have been times when integration testing a rails site that I&#8217;ve wanted to click a link on a page without caring about it&#8217;s route or url.</p>
+
+<p>So let&#8217;s say the following exists on a page in my app:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'><span class="nt">&lt;html&gt;</span>
+</span><span class='line'>  <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://meresheep.com/users/4;resend_activation_email&quot;</span><span class="nt">&gt;</span>
+</span><span class='line'>      resend your activation email
+</span><span class='line'>  <span class="nt">&lt;/a&gt;</span>
+</span><span class='line'><span class="nt">&lt;/html&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>In my integration test, I can now do things like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_non_activated_user</span>
+</span><span class='line'>  <span class="n">s</span> <span class="o">=</span> <span class="n">new_session_as</span> <span class="ss">:duff</span>
+</span><span class='line'>  <span class="n">s</span><span class="o">.</span><span class="n">click_link</span><span class="p">(</span><span class="s2">&quot;resend your activation email&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">s</span><span class="o">.</span><span class="n">assert_template</span><span class="p">(</span><span class="s2">&quot;invitation_sent&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To get this functionality, I added the following method to my integration testing DSL:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">module</span> <span class="nn">IntegrationDsl</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">def</span> <span class="nf">click_link</span><span class="p">(</span><span class="n">link_text</span><span class="p">)</span>
+</span><span class='line'>    <span class="n">assert_select</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="n">link_text</span><span class="p">,</span> <span class="s2">&quot;Trying to click a link named &#39;</span><span class="si">#{</span><span class="n">link_text</span><span class="si">}</span><span class="s2">&#39; that did not exist&quot;</span><span class="p">)</span> <span class="k">do</span> <span class="o">|</span> <span class="n">links</span> <span class="o">|</span>
+</span><span class='line'>      <span class="n">get_via_redirect</span> <span class="n">links</span><span class="o">.</span><span class="n">first</span><span class="o">.</span><span class="n">attributes</span><span class="o">[</span><span class="s1">&#39;href&#39;</span><span class="o">]</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The test fails if the link doesn&#8217;t exist on the current page.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/01/23/zippy-soapadoo/">Zippy Soapadoo</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-23T00:00:00-05:00" pubdate data-updated="true">Jan 23<span>rd</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I was recently able to give <a href="http://soapadoo.com">Soapadoo</a> a nice little performance makeover.   The site is now considerably faster than it&#8217;s ever been.  It&#8217;s quite evident clicking around the site that the performance improvements are significant.  For the curious geeks out there, here are some of the things I did:</p>
+<ul>
+	<li>I changed to a different hosting company.  Soapadoo used to be hosted on <a href="http://ocssolutions.com"><span class="caps">OCS</span> Solutions</a>.  Now it&#8217;s hosted on <a href="http://slicehost.com">Slicehost</a>.  Reason: twice the memory for less money.</li>
+	<li>I&#8217;m no longer using <a href="http://www.lighttpd.net">Lighty</a>.  Soapadoo is now being run by a cluster of <a href="http://mongrel.rubyforge.org">mongrels</a> sitting behind <a href="http://httpd.apache.org">Apache</a>.</li>
+	<li>I switched from <a href="http://www.debian.org">Debian</a> to <a href="http://www.ubuntu.com">Ubuntu</a>.</li>
+	<li>I switched from <a href="http://www.postgresql.org/">Postgres</a> to <a href="http://www.mysql.com">MySql</a>.</li>
+</ul></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/01/17/this-is-the-day-not-tomorrow/">THIS Is the Day. Not Tomorrow.</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-17T00:00:00-05:00" pubdate data-updated="true">Jan 17<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I just read the following about joy from <a href="http://www.amazon.com/exec/obidos/tg/detail/-/0310246954/realreviews-20/">The Life You&#8217;ve Always Wanted</a> by John Ortberg:</p>
+<blockquote>
+<p>We all live with the illusion that joy will come someday when conditions change.  We go to school and think we will be happy when we graduate.  We are single and are convinced we will be happy when we get married.  We get married and decide we will be happy someday when we have children.  We have children and decide we will be happy when they grow up and leave the nest &#8211; then they do, and we think we were happier when they were still at home.</p>
+</blockquote>
+<p>And this:</p>
+<blockquote>
+<p>When we celebrate, we exercise our ability to see and feel goodness in the simplest gifts of God.  We are able to take delight today in something we wouldn&#8217;t have even noticed yesterday.  Our capacity for joy increases.</p>
+</blockquote>
+<p><img class="center" src="/images/posts/2007/celebrate.jpg" width="450"></p>
+<p>Some take home lessons for me:</p>
+<ul>
+	<li>Yes, I need to place some emphasis on setting goals for the future and working today to help achieve objectives tomorrow.  Not as much emphasis as I&#8217;ve been placing, though.  I shouldn&#8217;t be so focused on tomorrow that I&#8217;m missing the wonder of today.</li>
+	<li>I need to start taking much more notice of the incredible things that happen on a daily basis right in front of me.</li>
+	<li>Joy in life and achieving goals aren&#8217;t tied together.  One is not dependent on the other.</li>
+</ul>
+<p>This is the day which the <span class="caps">LORD</span> has made; Let us rejoice and be glad in it.<br />
+- Psalm 118:24</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2007/01/06/to-quit-or-persevere/">To Quit or Persevere</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2007-01-06T00:00:00-05:00" pubdate data-updated="true">Jan 6<span>th</span>, 2007</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><blockquote><p>It takes real guts to abandon a strategy, especially if you&#8217;ve gotten super good at the tactics. That&#8217;s precisely the reason that switching strategies is often such a good idea. Because your competition is afraid to.</p><footer><strong>Seth Godin</strong> <cite><a href='http://sethgodin.typepad.com/seths_blog/2007/01/the_difference_.html'>The Difference Between Strategy and Tactics</a></cite></footer></blockquote>
+<p><img class="right" src="/images/posts/2007/heading_quitting_time.gif" width="200"></p>
+<p>I agree with him.  Abandoning a strategy is often a good idea.</p>
+<p>His post brought to mind a few questions I&#8217;ve thought about in the past along similar lines.  When do you quit?  How do you know if your current strategy really should be abandoned, or if you&#8217;re just quitting before your strategy had enough time to succeed?</p>
+<p>We&#8217;re often given seemingly conflicting advice in life:</p>
+<ul>
+	<li>&#8220;Never ever ever quit.&#8221;</li>
+	<li>&#8220;Embrace change and be willing to change strategies because the path that you&#8217;re on might not be feasible.&#8221;</li>
+	<li>&#8220;It&#8217;s not possible to fail if you don&#8217;t give up.&#8221;</li>
+</ul>
+<p>I&#8217;m not really sure how to generically know if it&#8217;s time to change strategies.  I am, however, capable of coming to a conclusion for a specific business instance.  <a href="http://soapadoo.com">Soapadoo</a>.</p>
+<p>Is the whole strategy of <a href="http://soapadoo.com">Soapadoo</a> flawed?  Should I stop spending time on it and instead devote time to another business?  <a href="http://soapadoo.com">Soapadoo</a> clearly isn&#8217;t viral yet and it hasn&#8217;t become the dominant reviews website on the internet.  It&#8217;s generated revenue but it&#8217;s not yet profitable.  Should it be scrapped?</p>
+<p>My answer is no.  Certainly not.  Here are some reasons why:</p>
+<ul>
+	<li><a href="http://soapadoo.com">Soapadoo</a> hasn&#8217;t been around very long.</li>
+	<li>Most businesses take time to develop and succeed.  Sam Walton said that Wal-Mart, like most overnight successes, was 10 years in the making.</li>
+	<li>It often takes time for a business to adapt and change to the marketplace.  This refinement can often cause a business to become remarkable/viral.  <a href="http://en.wikipedia.org/wiki/Ward_Cunningham">Ward Cunningham</a> has spoken about &#8220;waiting for insight&#8221;.  Insight often takes time.</li>
+	<li>I haven&#8217;t found another website yet that&#8217;s completely focused on reviews and keeping things simple without bloat.</li>
+	<li>I haven&#8217;t found another website yet that allowed bloggers and other reviewers to aggregate a subset of their posts onto a review site that&#8217;s highly Googleable.</li>
+	<li>I haven&#8217;t found another review site yet where <a href="http://soapadoo.com/info/financial_benefits">reviewers could benefit financially</a>.</li>
+	<li>I haven&#8217;t found another website that effectively combined the idea of a social network with reviews.</li>
+	<li>As a consumer of the site, I find it personally useful to read reviews written by friends and others I respect.  I&#8217;ve also found it useful to be able to email a link to a Soapadoo review to those looking for recommendations.</li>
+	<li>This business has a <em>really</em> low capital burn rate.</li>
+	<li>If <a href="http://soapadoo.com">Soapadoo</a> isn&#8217;t profitable a year from now, I&#8217;ll certainly consider spending less time on it in favor spending time on more profitable ventures.</li>
+</ul></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/17/interviewed-on-centernetworks/">Interviewed on CenterNetworks</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-17T00:00:00-05:00" pubdate data-updated="true">Nov 17<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Allen from <a href="http://www.centernetworks.com">CenterNetworks</a> recently interviewed me about <a href="http://soapadoo.com">Soapadoo</a> and a number of other topics.  I think Allen&#8217;s a pretty talented interviewer so you might want to check it out.</p>
+<p>If you haven&#8217;t seen <a href="http://www.centernetworks.com">CenterNetworks</a> yet, it&#8217;s a pretty useful source of information for people in the tech world.  It&#8217;s also a great place to learn some lessons from tech entrepreneurs.</p>
+<p><a href="http://www.centernetworks.com/interview-with-soapadoo">Here is the interview</a>.  You can listen to it on the bottom of that page.  I&#8217;m hopeful that it&#8217;ll provide some value to folks.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/11/15/dream-small-dreams-every-day/">Dream Small Dreams Every Day</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-11-15T00:00:00-05:00" pubdate data-updated="true">Nov 15<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>There has been much written in the area of setting goals for one&#8217;s life.  It seems that most successful folks attribute some of their success to the fact that they had very clear, very big, and very specific written-down goals.</p>
+<p>Most people think way too small.  If they&#8217;ve even established some goals, those goals are often much smaller than they should be.  People seem to underestimate their potential and this can often contribute to a lack of fulfillment in one&#8217;s life.  To combat this tendency, many authors would say that your goals should be ginormous.  They should be so huge that you have no idea how you&#8217;re going to accomplish them.  Dream really big dreams and you&#8217;ll achieve much more than you thought possible.</p>
+<p>This all makes sense if you&#8217;re talking about long term goals &#8211; 30 year goals, 10 year goals, 3 year goals, and 1 year goals.  For these kinds of time frames, I think that having incredibly huge dreams about your future helps you.  I can see very little downside to having goals that are seemingly beyond your reach &#8211; when you&#8217;re creating your <strong>long-term goals</strong>.</p>
+<p>I&#8217;ve run into some trouble when trying to apply these principles to daily goals.  There&#8217;s a major downside to setting goals that are too big when you&#8217;re working with a daily time frame.  That downside is discouragement.</p>
+<p>I&#8217;ve had many days when I&#8217;ve felt disappointed at the end of the day.  Some days I&#8217;ve felt unproductive.  Other days I&#8217;ve felt like I just didn&#8217;t get nearly enough done as I should have.  It&#8217;s pretty easy to feel like a failure if your daily goals are too big.  Disappointment comes from unmet expectations.  The failure I was feeling was not because I didn&#8217;t accomplish enough that day.  It was because I didn&#8217;t accomplish as much as I thought I would at the start of the day.  If my expectations for the day are unrealistic, it&#8217;s a recipe for continual discouragement.  Discrouragement can then lead to other problems because it&#8217;s tough to be optimistic when you&#8217;re disappointed.</p>
+<p>I&#8217;m not arguing that you should low-ball your daily goals.  I&#8217;m not saying you should turn into a daily sloth and only set a few easy goals each day so you can feel accomplished and stay positive.  This wouldn&#8217;t be living up to your potential.</p>
+<p>Instead, I&#8217;d argue that a daily goal list should be broken down into 2 sections:</p>
+<ul>
+	<li>The first section is the must-have list.  This is the list of things that you need to do every single day no matter what.  These things ought to be done regardless of what happens that day.  If you&#8217;re in a coma, then you don&#8217;t need to accomplish the must-haves.  No other excuse holds any water.  It&#8217;s the section of your daily goals that you&#8217;re not willing to compromise on.  If the things on this section aren&#8217;t done by the end of the day, you don&#8217;t go to sleep until they are.</li>
+	<li>The second section is the nice-to-have list.  Every other goal you have for the day is in this list.  It&#8217;s ok to think bigger here because everything in this list is gravy.  It&#8217;s nice if you get them done but it&#8217;s certainly not the end of the world if you don&#8217;t accomplish every nice-to-have goal for the day.</li>
+</ul>
+<p>This type of approach builds up your confidence and leads to more discipline in your life because you form the daily habit of always doing what you say you&#8217;re going to do that day.  It also encourages you to stretch a bit with the nice-to-haves.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2006/10/30/soapadoo-reviewers-share-profits/">Soapadoo Reviewers Share Profits</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2006-10-30T00:00:00-05:00" pubdate data-updated="true">Oct 30<span>th</span>, 2006</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I recently decided that the profit that the <a href="http://soapadoo.com">Soapadoo website</a> generates should be shared with reviewers.  50-50.</p>
+<p>The reviews on Soapadoo are assets. They were created by reviewers who were willing to take the time and energy necessary to create worthwhile reviews others can benefit from.</p>
+<p>The Soapadoo website generates revenue primarily through relevant advertising. This money is now shared with reviewers. It would be foolish for Soapadoo to keep all of the profit when the reviewers are doing so much of the work. The reviews on Soapadoo provide value to the people reading the site. The reviewers are now compensated for providing this value.  If you&#8217;re a blogger, this is another reason to <a href="http://soapadoo.com/info/for_bloggers">re-publish the reviews from your blog</a> onto Soapadoo.</p>
+<p>If you&#8217;d like more information about the program, you can <a href="http://soapadoo.com/info/financial_benefits">read more about it here</a>.</p></div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/8/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/6/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>About</h1>
+  <p>I write some code. <a href="/about">More&#8230;</a></p>
+</section>
+
+<section>
+  <p>
+    <a href="http://twitter.com/duffomelia">@duffomelia</a> on Twitter
+  </p>
+</section>
+<section>
+  <h1>Subscribe</h1>
+  <br/>
+  <p>
+    <a style="text-decoration: none" href="http://feeds.feedburner.com/duffomelia" rel="subscribe-rss" title="Use your news reader to receive updates."><img style="vertical-align:middle" src="/images/rss.png" /> &nbsp; RSS</a>
+  </li>
+  <p>
+    <a style="text-decoration: none" href="http://feedburner.google.com/fb/a/mailverify?uri=duffomelia&amp;loc=en_US" rel="subscribe-email" title="Receive an email whenever the blog is updated."><img style="vertical-align:middle" src="/images/email.png" /> &nbsp; Email </a>
+  </p>
+</section>
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Duff O'Melia -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

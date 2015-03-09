@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Prefixed Pluralize - Duff O'Melia</title>
+  <meta name="author" content="Duff O'Melia">
+
+  
+  <meta name="description" content="I&#8217;d like the view to be smart and say something like &#8220;There are 3 plans available&#8221; or &#8220;There is 1 plan available&#8221; based &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://duffomelia.com/blog/2009/11/12/prefixed_pluralize/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/duffomelia" rel="alternate" title="Duff O'Melia" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script src="/javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery-cookie.min.js" type="text/javascript"></script>
+<script src="/javascripts/adn-timeline.min.js" type="text/javascript"></script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11551778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Duff O'Melia</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation">  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:duffomelia.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/work">Work</a></li>
+  <li><a href="/blog/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Prefixed Pluralize</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2009-11-12T00:00:00-05:00" pubdate data-updated="true">Nov 12<span>th</span>, 2009</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>I&#8217;d like the view to be smart and say something like &#8220;There are 3 plans available&#8221; or &#8220;There is 1 plan available&#8221; based on the number of plans.</p>
+
+<p>Icky:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">%</span><span class="nb">p</span> <span class="no">There</span> <span class="c1">#{( current_gym.membership_plans.count == 1 ) ? &quot;is&quot; : &quot;are&quot;} #{pluralize(current_gym.membership_plans.count, &quot;membership plan&quot;)}.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Better:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">%</span><span class="nb">p</span> <span class="no">There</span> <span class="c1">#{prefixed_pluralize(current_gym.membership_plans.count, &quot;is&quot;, &quot;are&quot;, &quot;membership plan&quot;)}.</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Here&#8217;s the little helper method:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">prefixed_pluralize</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">singular_prefix</span><span class="p">,</span> <span class="n">plural_prefix</span><span class="p">,</span> <span class="n">singular_suffix</span><span class="p">,</span> <span class="n">plural_suffix</span> <span class="o">=</span> <span class="kp">nil</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">prefix</span> <span class="o">=</span> <span class="p">(</span><span class="n">count</span> <span class="o">==</span> <span class="mi">1</span><span class="p">)</span> <span class="p">?</span> <span class="n">singular_prefix</span> <span class="p">:</span> <span class="n">plural_prefix</span>
+</span><span class='line'>  <span class="s2">&quot;</span><span class="si">#{</span><span class="n">prefix</span><span class="si">}</span><span class="s2"> </span><span class="si">#{</span><span class="n">pluralize</span><span class="p">(</span><span class="n">count</span><span class="p">,</span> <span class="n">singular_suffix</span><span class="p">,</span> <span class="n">plural_suffix</span><span class="p">)</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>And the test:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="nb">test</span> <span class="s2">&quot;prefixed_pluralize&quot;</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="s2">&quot;are 7 dogs&quot;</span><span class="p">,</span> <span class="n">prefixed_pluralize</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="s2">&quot;is&quot;</span><span class="p">,</span> <span class="s2">&quot;are&quot;</span><span class="p">,</span> <span class="s2">&quot;dog&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="s2">&quot;is 1 dog&quot;</span><span class="p">,</span> <span class="n">prefixed_pluralize</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;is&quot;</span><span class="p">,</span> <span class="s2">&quot;are&quot;</span><span class="p">,</span> <span class="s2">&quot;dog&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="s2">&quot;are 0 animals&quot;</span><span class="p">,</span> <span class="n">prefixed_pluralize</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="s2">&quot;is&quot;</span><span class="p">,</span> <span class="s2">&quot;are&quot;</span><span class="p">,</span> <span class="s2">&quot;animals&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="s2">&quot;are 5 users&quot;</span><span class="p">,</span> <span class="n">prefixed_pluralize</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;is&quot;</span><span class="p">,</span> <span class="s2">&quot;are&quot;</span><span class="p">,</span> <span class="s2">&quot;person&quot;</span><span class="p">,</span> <span class="s2">&quot;users&quot;</span><span class="p">)</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="s2">&quot;are now 2 penguins&quot;</span><span class="p">,</span> <span class="n">prefixed_pluralize</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;is now&quot;</span><span class="p">,</span> <span class="s2">&quot;are now&quot;</span><span class="p">,</span> <span class="s2">&quot;penguin&quot;</span><span class="p">)</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Helpful?</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2009/05/29/a-monopoly-of-violence/" title="Previous Post: A Monopoly Of Violence">&laquo; A Monopoly Of Violence</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2009/11/17/customer_service_delight/" title="Next Post: Customer Service Delight">Customer Service Delight &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About</h1>
+  <p>I write some code. <a href="/about">More...</a></p>
+</section>
+
+<section>
+  <p>
+    <a href="http://twitter.com/duffomelia">@duffomelia</a> on Twitter
+  </p>
+</section>
+<section>
+  <h1>Subscribe</h1>
+  <br/>
+  <p>
+    <a style="text-decoration: none" href="http://feeds.feedburner.com/duffomelia" rel="subscribe-rss" title="Use your news reader to receive updates."><img style="vertical-align:middle" src="/images/rss.png" /> &nbsp; RSS</a>
+  </li>
+  <p>
+    <a style="text-decoration: none" href="http://feedburner.google.com/fb/a/mailverify?uri=duffomelia&amp;loc=en_US" rel="subscribe-email" title="Receive an email whenever the blog is updated."><img style="vertical-align:middle" src="/images/email.png" /> &nbsp; Email </a>
+  </p>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Duff O'Melia -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

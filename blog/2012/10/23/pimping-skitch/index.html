@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Pimping Skitch - Duff O'Melia</title>
+  <meta name="author" content="Duff O'Melia">
+
+  
+  <meta name="description" content="Skitch was acquired by Evernote awhile back and they recently published their 2.0 upgrade. The internets were abuzz with discontent about some
+of the &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://duffomelia.com/blog/2012/10/23/pimping-skitch/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/duffomelia" rel="alternate" title="Duff O'Melia" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script src="/javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery-cookie.min.js" type="text/javascript"></script>
+<script src="/javascripts/adn-timeline.min.js" type="text/javascript"></script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11551778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Duff O'Melia</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation">  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:duffomelia.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/work">Work</a></li>
+  <li><a href="/blog/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Pimping Skitch</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-10-23T10:29:00-04:00" pubdate data-updated="true">Oct 23<span>rd</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p><a href="http://skitch.com">Skitch</a> was acquired by Evernote awhile back and they recently published their 2.0 upgrade.  The internets were abuzz with discontent about some
+of the changes.  Personally, I&#8217;m fond of a number of the improvements.  The only &#8220;improvement&#8221; that&#8217;s been a bit hurtful is that the uploading of images goes to the Evernote
+server and it&#8217;s not very cinchy to get the direct url of the image that was uploaded.</p>
+
+<p>All I really want is the ability to hit a keyboard shortcut, take a quick screenshot, add a big fat arrow or two and maybe some text, hit another keyboard shortcut and know that the
+clipboard now has the url of the uploaded image.  It&#8217;s something I do a number of times a day.</p>
+
+<p>I started with some hackery to use the evernote url but they&#8217;re doing some funky things with redirects and permissions such that some people have been unable to
+see the images.  I noticed my friend Brandon <a href="https://alpha.app.net/imathis/post/880318">was now using CloudApp</a> so I thought I&#8217;d give that a shot.  Here&#8217;s what I came
+up with:</p>
+
+<!-- more -->
+
+
+<p>I&#8217;m still using Skitch to take the screenshot and edit the image. Then I trigger a <a href="http://www.keyboardmaestro.com/main/">Keyboard Maestro</a> macro that&#8217;s only
+available when Skitch is the activated application.  Here&#8217;s what it looks like:</p>
+
+<p><img class="center" src="/images/posts/2012/skitch_keyboard_maestro.png" width="480"></p>
+
+<p>That one keystroke copies the skitch image to the clipboard, triggers the keyboard shortcut to send it to <a href="http://getcloudapp.com">CloudApp</a>, waits until the
+clipboard contains the CloudApp url, and then runs a shell script to get the url of the image itself rather than a url to a page containing the image.  Getting the
+real url of the image allows me to just paste the url into <a href="http://campfirenow.com">Campfire</a> or <a href="https://www.hipchat.com">HipChat</a> and have the image show up
+inline.</p>
+
+<p>Here&#8217;s the little shell script:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="c1">#!/usr/bin/env ruby</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">clipboard</span>
+</span><span class='line'>  <span class="n">value</span> <span class="o">=</span> <span class="no">IO</span><span class="o">.</span><span class="n">popen</span><span class="p">(</span><span class="s1">&#39;pbpaste&#39;</span><span class="p">,</span> <span class="s1">&#39;r+&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">read</span>
+</span><span class='line'>  <span class="k">unless</span> <span class="n">value</span><span class="o">.</span><span class="n">include?</span><span class="p">(</span><span class="s2">&quot;http://cl.ly&quot;</span><span class="p">)</span>
+</span><span class='line'>    <span class="nb">puts</span> <span class="s2">&quot;The url in the clipboard must start with http://cl.ly&quot;</span>
+</span><span class='line'>    <span class="nb">exit</span> <span class="mi">0</span>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'>  <span class="n">value</span>
+</span><span class='line'><span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">image_url</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">clipboard</span><span class="si">}</span><span class="s2">/content.png&quot;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nb">puts</span> <span class="s2">&quot;Got the image!</span><span class="se">\n</span><span class="si">#{</span><span class="n">image_url</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'><span class="no">IO</span><span class="o">.</span><span class="n">popen</span><span class="p">(</span><span class="s1">&#39;pbcopy&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span><span class="o">.</span><span class="n">print</span> <span class="n">image_url</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The <em>puts</em> lines show up on my screen briefly because of this in the Keyboard Maestro macro:</p>
+
+<p><img class="center" src="/images/posts/2012/display_results_briefly.png" width="480"></p>
+
+<p>After that one keystroke, my clipboard now has the url.  It looks something like this:</p>
+
+<p><a href="http://cl.ly/image/2f2u1J2j2b2z/content.png">http://cl.ly/image/2f2u1J2j2b2z/content.png</a></p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/10/21/to-blog-or-not-to-blog/" title="Previous Post: To Blog or Not to Blog">&laquo; To Blog or Not to Blog</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/12/02/leaning-globally/" title="Next Post: Leaning Globally">Leaning Globally &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>About</h1>
+  <p>I write some code. <a href="/about">More...</a></p>
+</section>
+
+<section>
+  <p>
+    <a href="http://twitter.com/duffomelia">@duffomelia</a> on Twitter
+  </p>
+</section>
+<section>
+  <h1>Subscribe</h1>
+  <br/>
+  <p>
+    <a style="text-decoration: none" href="http://feeds.feedburner.com/duffomelia" rel="subscribe-rss" title="Use your news reader to receive updates."><img style="vertical-align:middle" src="/images/rss.png" /> &nbsp; RSS</a>
+  </li>
+  <p>
+    <a style="text-decoration: none" href="http://feedburner.google.com/fb/a/mailverify?uri=duffomelia&amp;loc=en_US" rel="subscribe-email" title="Receive an email whenever the blog is updated."><img style="vertical-align:middle" src="/images/email.png" /> &nbsp; Email </a>
+  </p>
+</section>
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Duff O'Melia -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

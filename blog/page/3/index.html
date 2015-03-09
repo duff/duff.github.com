@@ -1,0 +1,633 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Duff O'Melia</title>
+  <meta name="author" content="Duff O'Melia">
+
+  
+  <meta name="description" content="Why not? Everyone else seems to be. 1
+history | awk &#39;{a[$2]++}END{for(i in a){print a[i] &quot; &quot; i}}&#39; | sort -rn | head 1
+2
+3
+4
+5
+6
+7
+8 &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://duffomelia.com/blog/page/3/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="http://feeds.feedburner.com/duffomelia" rel="alternate" title="Duff O'Melia" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+<script src="/javascripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery-cookie.min.js" type="text/javascript"></script>
+<script src="/javascripts/adn-timeline.min.js" type="text/javascript"></script>
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-11551778-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Duff O'Melia</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation">  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:duffomelia.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/work">Work</a></li>
+  <li><a href="/blog/archives">Archive</a></li>
+  <li><a href="/about">About</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/04/18/command-history-meme/">Command History Meme</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-04-18T00:00:00-04:00" pubdate data-updated="true">Apr 18<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Why not?  <a href="http://blog.codefront.net/2008/04/18/command-history-meme">Everyone else</a> seems to be.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nb">history</span> | awk <span class="s1">&#39;{a[$2]++}END{for(i in a){print a[i] &quot; &quot; i}}&#39;</span> | sort -rn | head
+</span></code></pre></td></tr></table></div></figure>
+
+
+
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>125 git
+</span><span class='line'>66 gs
+</span><span class='line'>64 rake
+</span><span class='line'>56 cd
+</span><span class='line'>45 cap
+</span><span class='line'>33 ls
+</span><span class='line'>18 g
+</span><span class='line'>16 ./script/server
+</span><span class='line'>9 mv
+</span><span class='line'>8 svn
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p><code>g</code> is an alias for `git`.  <code>gs</code> is an alias for `git status`.  I like Chu&#8217;s alias of <code>ss</code> for `script/server`.  I think I&#8217;ll do that.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/04/16/cap-deploy-pending/">Cap Deploy Pending</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-04-16T00:00:00-04:00" pubdate data-updated="true">Apr 16<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Running `cap deploy:pending` displays the commits since your last deploy.  I wanted it&#8217;s output to be a bit different primarily so I could send a message to the others on the team about what&#8217;s just been deployed.</p>
+
+<p>Specifically, I wanted the output to look something like this:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>Deployment revision 49c45b7
+</span><span class='line'>I deployed the latest. It includes:
+</span><span class='line'>
+</span><span class='line'>* Added avatar support  (Duff)
+</span><span class='line'>* Cleaned up the project switcher  (Alex)
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>To do that, I added the following capistrano recipe:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">namespace</span> <span class="ss">:deploy</span> <span class="k">do</span>
+</span><span class='line'>  <span class="n">namespace</span> <span class="ss">:pending</span> <span class="k">do</span>
+</span><span class='line'>    <span class="n">desc</span> <span class="o">&lt;&lt;-</span><span class="no">DESC</span>
+</span><span class='line'><span class="sh">      Show the commits since the last deploy</span>
+</span><span class='line'><span class="no">    DESC</span>
+</span><span class='line'>    <span class="n">task</span> <span class="ss">:default</span><span class="p">,</span> <span class="ss">:except</span> <span class="o">=&gt;</span> <span class="p">{</span> <span class="ss">:no_release</span> <span class="o">=&gt;</span> <span class="kp">true</span> <span class="p">}</span> <span class="k">do</span>
+</span><span class='line'>      <span class="n">deployed_already</span> <span class="o">=</span> <span class="n">current_revision</span>
+</span><span class='line'>      <span class="n">to_be_deployed</span> <span class="o">=</span> <span class="sb">`git rev-parse --short &quot;HEAD&quot;`</span>
+</span><span class='line'>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n\n</span><span class="s2">Deployment revision </span><span class="si">#{</span><span class="n">to_be_deployed</span><span class="si">}</span><span class="s2">&quot;</span>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;I deployed the latest. It includes:&quot;</span>
+</span><span class='line'>      <span class="nb">puts</span>
+</span><span class='line'>      <span class="nb">system</span><span class="p">(</span><span class="sx">%Q{git log --no-merges --pretty=format:&quot;* %s %b (%cn)&quot; </span><span class="si">#{</span><span class="n">deployed_already</span><span class="si">}</span><span class="sx">.. | replace &#39;&lt;unknown&gt;&#39; &#39;&#39;}</span><span class="p">)</span>
+</span><span class='line'>      <span class="nb">puts</span> <span class="s2">&quot;</span><span class="se">\n\n\n</span><span class="s2">&quot;</span>
+</span><span class='line'>    <span class="k">end</span>
+</span><span class='line'>
+</span><span class='line'>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Then I added a hook in my deploy.rb to run this automatically whenever someone deploys:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">before</span> <span class="s2">&quot;deploy:update_code&quot;</span><span class="p">,</span> <span class="s2">&quot;deploy:pending:default&quot;</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>The next piece of automation I&#8217;d like is to have it automatically post a message to <a href="http://basecamphq.com/">basecamp</a>.</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/03/31/no-kahuna/">No Kahuna</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-03-31T00:00:00-04:00" pubdate data-updated="true">Mar 31<span>st</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>My friend <a href="http://plasticshore.com/">Alex</a> and I spent 2 full days last week creating <a href="http://nokahuna.com">No Kahuna</a>.  It was an intense and quite enjoyable 48 hour burst of design and development.  We can&#8217;t wait to see what the world thinks of it.</p>
+<p>Of course, we used <a href="http://spreedly.com">Spreedly</a> to handle our subscriptions and payments.  Without <a href="http://spreedly.com">Spreedly</a> or something like it, going live in that time frame with a subscription-based web site capable of collecting real money would be pretty difficult if not impossible.</p>
+<p>I hope you can <a href="http://nokahuna.com">give it a try</a>.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/18/nathaniel-talbotts-first-spreedly-interview/">Nathaniel Talbott&#8217;s First Spreedly Interview</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-18T00:00:00-05:00" pubdate data-updated="true">Feb 18<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Some exciting things have been happening in Spreedly land.  <a href="http://blog.spreedly.com/2008/2/12/the-next-step-invites-sent">More invites have been sent</a> and <a href="http://www.galaxy-news.net/content/194_making_subscriptions_quot_drop_dead_simple_quot.html">Nathaniel&#8217;s been interviewed</a>.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/17/libertonya/">Libertonya</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-17T00:00:00-05:00" pubdate data-updated="true">Feb 17<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&#8217;m seeking some investment capital for a new project.  I&#8217;d like to make a man-made island in the center of an ocean somewhere.  I&#8217;m thinking it could start out maybe the size of Rhode Island.  Maybe smaller.  It will of course grow over time.  It will be a sovereign nation tentatively named Libertonya.  The citizens of Libertonya will be truly free.  It will be a self sufficient nation.</p>
+<p>For you investor types reading this blog, I&#8217;m looking for about $25 billion to start out.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/16/whats-a-billion-when-you-can-just-print-it/">What&#8217;s $1.5 Billion When You Can Just Print It?</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-16T00:00:00-05:00" pubdate data-updated="true">Feb 16<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>Let&#8217;s just think things through for a second.  The federal government takes money from some <a href="http://news.yahoo.com/s/ap/20080215/ap_on_hi_te/digital_tv_coupons">to buy analog tv converter boxes for others</a>.  It&#8217;ll only cost $1.5 billion.  Coupons will be sent soon.</p>
+<p>Perhaps this program will help to distract the populace from all of the other unconstitutional activities the federal government is involved in.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/15/coercion/">Coercion</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-15T00:00:00-05:00" pubdate data-updated="true">Feb 15<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I found two excerpts in <a href="http://www.ilanamercer.com/HillaryHusseinMcCainAxisOfEvil.htm">Ilana Mercer&#8217;s article</a> to be particularly interesting.</p>
+<blockquote>
+<p>Henry Hazlitt said that “government has nothing to give to anybody that it doesn’t first take from somebody else.”</p>
+</blockquote>
+<blockquote>
+<p>This writer holds that the sole role of a legitimate government is to protect only the inalienable rights to life, liberty and property, and the pursuit of happiness. Why life, liberty, and property, and not housing, food, education, health care, child benefits, emotional well-being, enriching employment, adequate vacations, ad infinitum, as promised variously by the remaining (viable) presidential contenders? Because the former impose no obligations on other free individuals; the latter enslave some in the service of others.</p>
+</blockquote>
+<p>Is government by its very nature coercive?  I personally think a government can be established in which the people are truly free.  Is there currently a place on this earth where people can live without others imposing their will on them?</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/05/passionate-votes/">Passionate Votes</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-05T00:00:00-05:00" pubdate data-updated="true">Feb 5<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>J.D. Tuccille makes an <a href="http://www.tuccille.com/blog/2008/01/totally-unscientific-candidate.html">excellent point</a> that &#8220;Unfortunately, visibility measures passion, but winning isn&#8217;t about passion&#8221;.</p>
+<p>I&#8217;d also say that straw polls measure passion but often don&#8217;t translate into actual votes on election day.  It takes passion for the 112 Ron Paul supporters in a town to show up at a straw poll.  But then on election day, there are thousands of people voting who don&#8217;t care much and who probably can&#8217;t identify a policy difference between the candidates.  Ron Paul often <a href="http://www.ronpaul2008.com/straw-poll-results/">crushes the competition</a> in straw polls.  It hasn&#8217;t translated into victories in an actual primary yet.</p>
+<p>The only signs and bumper stickers we see here in North Carolina are Ron Paul signs.  They&#8217;re everywhere.  Will it translate into votes?</p>
+<p>I&#8217;m starting to think that the funding of the candidates also measures passion but doesn&#8217;t necessarily translate into votes.  In the final quarter of 2007 over 200,000 people contributed to Ron Paul&#8217;s campaign.  Those passionate people will vote.  But their passionate votes won&#8217;t count for more than the lukewarm votes of millions.</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/02/01/the-money-scorecard/">The Money Scorecard</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-02-01T00:00:00-05:00" pubdate data-updated="true">Feb 1<span>st</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>For the final 3 months of 2007, the Republican candidates raised the following:</p>
+<ul>
+	<li>Ron Paul: $19.95 million</li>
+	<li>McCain: $9.9 million</li>
+	<li>Romney : $9.2 million</li>
+	<li>Huckabee: $6.7 million</li>
+</ul>
+<p>So Ron Paul more than doubled the other candidates.</p>
+<p>Cash on hand at then end of the quarter:</p>
+<ul>
+	<li>Ron Paul: $7.8 million</li>
+	<li>McCain: $2.9 million</li>
+	<li>Romney : $2.4 million</li>
+	<li>Huckabee: $651 thousand</li>
+</ul>
+<p>Romney did chip in an extra $18 million of his own dough during the quarter.</p>
+<p>Ron Paul is crushing the competition in terms of raising money.  So far, that hasn&#8217;t translated into crushing the competition at the voting booth.  Will it ever?</p></div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2008/01/29/the-consent-of-the-governed/">The Consent of the Governed</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2008-01-29T00:00:00-05:00" pubdate data-updated="true">Jan 29<span>th</span>, 2008</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>From the United States Declaration of Independence :</p>
+<blockquote>
+<p>That to secure these rights, Governments are instituted among Men, deriving their just powers from the consent of the governed&#8230;</p>
+</blockquote>
+<p>From <a href="http://ap.google.com/article/ALeqM5iIDRKV_bl0sRAcEa3F_7GSSRLtdgD8UFC6300">George Bush&#8217;s Final State of the Union</a> :</p>
+<blockquote>
+<p>On education, we must trust students to learn if given the chance and empower parents to demand results from our schools.</p>
+</blockquote>
+<p>The federal government &#8220;empowering&#8221; parents?  Shouldn&#8217;t it be the other way around?  Doesn&#8217;t the federal government become empowered by the consent of the governed?  The president used the word &#8220;empower&#8221; at least 11 times in the State of the Union address.  Where did the federal government get the authority to &#8220;empower&#8221; the people?  Wasn&#8217;t the power <a href="http://people.ronpaul2008.com/campaign-updates/2008/01/28/the-constitution-in-reverse/">already in the people</a> at the start?</p>
+<p>Republican and conservative politicians talk ad nauseam about getting government off our backs and making government smaller.  Then in their next breath they refer to new government programs they&#8217;d like to introduce.  The cognitive dissonance can be quite disturbing.</p></div>
+  
+  
+
+
+    </article>
+  
+  <div class="pagination">
+    
+      <a class="prev" href="/blog/page/4/">&larr; Older</a>
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page/2/">Newer &rarr;</a>
+    
+  </div>
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1>About</h1>
+  <p>I write some code. <a href="/about">More&#8230;</a></p>
+</section>
+
+<section>
+  <p>
+    <a href="http://twitter.com/duffomelia">@duffomelia</a> on Twitter
+  </p>
+</section>
+<section>
+  <h1>Subscribe</h1>
+  <br/>
+  <p>
+    <a style="text-decoration: none" href="http://feeds.feedburner.com/duffomelia" rel="subscribe-rss" title="Use your news reader to receive updates."><img style="vertical-align:middle" src="/images/rss.png" /> &nbsp; RSS</a>
+  </li>
+  <p>
+    <a style="text-decoration: none" href="http://feedburner.google.com/fb/a/mailverify?uri=duffomelia&amp;loc=en_US" rel="subscribe-email" title="Receive an email whenever the blog is updated."><img style="vertical-align:middle" src="/images/email.png" /> &nbsp; Email </a>
+  </p>
+</section>
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2015 - Duff O'Melia -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
