@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Duff O'Melia]]></title>
-  <link href="http://duffomelia.com/atom.xml" rel="self"/>
-  <link href="http://duffomelia.com/"/>
-  <updated>2015-03-09T09:56:22-04:00</updated>
-  <id>http://duffomelia.com/</id>
+  <link href="http://duff.github.com/atom.xml" rel="self"/>
+  <link href="http://duff.github.com/"/>
+  <updated>2015-03-09T10:06:38-04:00</updated>
+  <id>http://duff.github.com/</id>
   <author>
     <name><![CDATA[Duff O'Melia]]></name>
     
@@ -15,23 +15,23 @@
   
   <entry>
     <title type="html"><![CDATA[A Photography Novice]]></title>
-    <link href="http://duffomelia.com/blog/2013/01/08/a-photography-novice/"/>
+    <link href="http://duff.github.com/blog/2013/01/08/a-photography-novice/"/>
     <updated>2013-01-08T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2013/01/08/a-photography-novice</id>
-    <content type="html"><![CDATA[<p>It&#8217;s been a few short days since the <a href="http://duffomelia.com/blog/2013/01/02/a-study-of-photography/">photography experiment</a> began.  I&#8217;m a complete novice, which is probably one of the reasons I&#8217;m finding it so enjoyable.  I&#8217;ve learned that having <a href="http://www.dpreview.com/previews/panasonic-lumix-dmc-lx7/4">a decent camera</a> allows you to take <a href="http://500px.com/duff">photographs</a> that just aren&#8217;t possible with an iPhone, even if you don&#8217;t know what you&#8217;re doing yet.</p>
+    <id>http://duff.github.com/blog/2013/01/08/a-photography-novice</id>
+    <content type="html"><![CDATA[<p>It&#8217;s been a few short days since the <a href="http://duff.github.com/blog/2013/01/02/a-study-of-photography/">photography experiment</a> began.  I&#8217;m a complete novice, which is probably one of the reasons I&#8217;m finding it so enjoyable.  I&#8217;ve learned that having <a href="http://www.dpreview.com/previews/panasonic-lumix-dmc-lx7/4">a decent camera</a> allows you to take <a href="http://500px.com/duff">photographs</a> that just aren&#8217;t possible with an iPhone, even if you don&#8217;t know what you&#8217;re doing yet.</p>
 
-<p><img class="center" src="http://duffomelia.com/images/posts/2013/01/gabby_at_wrestling.jpg"></p>
+<p><img class="center" src="http://duff.github.com/images/posts/2013/01/gabby_at_wrestling.jpg"></p>
 
 <p>I&#8217;ve been learning about RAW versus JPG.  I&#8217;ve been learning to delete most of the pictures I take because if I don&#8217;t, I&#8217;ll be buying more hard drives.  I&#8217;ve been learning about how to really use manual mode on the camera.</p>
 
 <!-- more -->
 
 
-<p><img class="center" src="http://duffomelia.com/images/posts/2013/01/homeschooling_has_begun.jpg"></p>
+<p><img class="center" src="http://duff.github.com/images/posts/2013/01/homeschooling_has_begun.jpg"></p>
 
 <p>I&#8217;ve been learning about how great <a href="http://www.apple.com/aperture/what-is.html">Aperture</a> is at improving photos, especially if you didn&#8217;t get the exposure just right.  I finally learned about white balance and how it was the cause of so many of my photos having an odd yellow tinge.</p>
 
-<p><img class="center" src="http://duffomelia.com/images/posts/2013/01/luke_after_the_tourney.jpg"></p>
+<p><img class="center" src="http://duff.github.com/images/posts/2013/01/luke_after_the_tourney.jpg"></p>
 
 <p>I marvel at the folks who learned about photography before it was a digital endeavor.</p>
 ]]></content>
@@ -39,9 +39,9 @@
   
   <entry>
     <title type="html"><![CDATA[A Study of Photography]]></title>
-    <link href="http://duffomelia.com/blog/2013/01/02/a-study-of-photography/"/>
+    <link href="http://duff.github.com/blog/2013/01/02/a-study-of-photography/"/>
     <updated>2013-01-02T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2013/01/02/a-study-of-photography</id>
+    <id>http://duff.github.com/blog/2013/01/02/a-study-of-photography</id>
     <content type="html"><![CDATA[<p>It all started back in 2009 at LessConf when <a href="http://brandonmathis.com">Brandon Mathis</a> showed me <a href="http://twitpic.com/lqool/full">an amazing picture</a> he had taken of his son Caleb.  The twitpic version of the picture doesn&#8217;t do it justice.  Brandon had showed me the real image on his laptop.  One of the dangers of hanging out at a conference with creative folks who make things is that their enthusiasm can be quite contagious.  In this case, Brandon answered all of my questions and made some recommendations as to how I might learn some of the basics.  His passion and excitement for the art of photography certainly piqued my interest in the subject.</p>
 
 <p>Fast forward a few years to meeting <a href="http://kohlhofer.com">Alex Kohlhofer</a> who explained how having a DSLR camera was great but challenging, since its
@@ -66,9 +66,9 @@ unwieldy size means you rarely have it with you.  He then showed me his <a href=
   
   <entry>
     <title type="html"><![CDATA[Leaning Globally]]></title>
-    <link href="http://duffomelia.com/blog/2012/12/02/leaning-globally/"/>
+    <link href="http://duff.github.com/blog/2012/12/02/leaning-globally/"/>
     <updated>2012-12-02T21:39:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2012/12/02/leaning-globally</id>
+    <id>http://duff.github.com/blog/2012/12/02/leaning-globally</id>
     <content type="html"><![CDATA[<p><a href="http://sivers.org/local">This article</a> by Derek Sivers sure has me thinking.</p>
 
 <blockquote><p>If you’re <strong>local</strong>, then you’re probably social, <strong>doing a lot of things in-person</strong>, and being a part of your community. But this means you’ll have less time to focus on creating things for the world.</p>
@@ -88,9 +88,9 @@ professional work to be global without feeling pressured to have too many in-per
   
   <entry>
     <title type="html"><![CDATA[Pimping Skitch]]></title>
-    <link href="http://duffomelia.com/blog/2012/10/23/pimping-skitch/"/>
+    <link href="http://duff.github.com/blog/2012/10/23/pimping-skitch/"/>
     <updated>2012-10-23T10:29:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2012/10/23/pimping-skitch</id>
+    <id>http://duff.github.com/blog/2012/10/23/pimping-skitch</id>
     <content type="html"><![CDATA[<p><a href="http://skitch.com">Skitch</a> was acquired by Evernote awhile back and they recently published their 2.0 upgrade.  The internets were abuzz with discontent about some
 of the changes.  Personally, I&#8217;m fond of a number of the improvements.  The only &#8220;improvement&#8221; that&#8217;s been a bit hurtful is that the uploading of images goes to the Evernote
 server and it&#8217;s not very cinchy to get the direct url of the image that was uploaded.</p>
@@ -108,7 +108,7 @@ up with:</p>
 <p>I&#8217;m still using Skitch to take the screenshot and edit the image. Then I trigger a <a href="http://www.keyboardmaestro.com/main/">Keyboard Maestro</a> macro that&#8217;s only
 available when Skitch is the activated application.  Here&#8217;s what it looks like:</p>
 
-<p><img class="center" src="http://duffomelia.com/images/posts/2012/skitch_keyboard_maestro.png" width="480"></p>
+<p><img class="center" src="http://duff.github.com/images/posts/2012/skitch_keyboard_maestro.png" width="480"></p>
 
 <p>That one keystroke copies the skitch image to the clipboard, triggers the keyboard shortcut to send it to <a href="http://getcloudapp.com">CloudApp</a>, waits until the
 clipboard contains the CloudApp url, and then runs a shell script to get the url of the image itself rather than a url to a page containing the image.  Getting the
@@ -152,7 +152,7 @@ inline.</p>
 
 <p>The <em>puts</em> lines show up on my screen briefly because of this in the Keyboard Maestro macro:</p>
 
-<p><img class="center" src="http://duffomelia.com/images/posts/2012/display_results_briefly.png" width="480"></p>
+<p><img class="center" src="http://duff.github.com/images/posts/2012/display_results_briefly.png" width="480"></p>
 
 <p>After that one keystroke, my clipboard now has the url.  It looks something like this:</p>
 
@@ -162,9 +162,9 @@ inline.</p>
   
   <entry>
     <title type="html"><![CDATA[To Blog or Not to Blog]]></title>
-    <link href="http://duffomelia.com/blog/2012/10/21/to-blog-or-not-to-blog/"/>
+    <link href="http://duff.github.com/blog/2012/10/21/to-blog-or-not-to-blog/"/>
     <updated>2012-10-21T15:30:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2012/10/21/to-blog-or-not-to-blog</id>
+    <id>http://duff.github.com/blog/2012/10/21/to-blog-or-not-to-blog</id>
     <content type="html"><![CDATA[<p>Marco Arment&#8217;s blog post about <a href="http://www.marco.org/2012/05/03/lasting-value">lasting value</a> caused me to reassess what on earth I&#8217;m doing with this site and whether I ought to even have it.  I
 can certainly understand the perspective of <a href="http://weblog.jamisbuck.org/2011/9/1/shutting-down">shutting down a site</a> if it&#8217;s something you&#8217;re no longer passionate about.</p>
 
@@ -183,9 +183,9 @@ you&#8217;ve improved as a coder and the way you&#8217;re doing things now is so
   
   <entry>
     <title type="html"><![CDATA[Using the Latest Octopress]]></title>
-    <link href="http://duffomelia.com/blog/2012/10/20/using-the-latest-octopress/"/>
+    <link href="http://duff.github.com/blog/2012/10/20/using-the-latest-octopress/"/>
     <updated>2012-10-20T16:39:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2012/10/20/using-the-latest-octopress</id>
+    <id>http://duff.github.com/blog/2012/10/20/using-the-latest-octopress</id>
     <content type="html"><![CDATA[<p>I spent some time over the last few weeks gradually upgrading this site to use the latest <a href="http://octopress.org">Octopress</a>.  I&#8217;m amazed how much
 <a href="http://brandonmathis.com">Brandon&#8217;s</a> framework has improved over the years.  I was still using the version he created about 8 hours after he started
 working on it at the first <a href="http://lessconf.lesseverything.com">LessConf</a>.  Thinking about it makes me wonder how many great things have been created in the
@@ -197,9 +197,9 @@ lobbies of hotels at geeky conferences.</p>
   
   <entry>
     <title type="html"><![CDATA[Ruby Quicktips]]></title>
-    <link href="http://duffomelia.com/blog/2012/02/16/ruby-quicktips/"/>
+    <link href="http://duff.github.com/blog/2012/02/16/ruby-quicktips/"/>
     <updated>2012-02-16T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2012/02/16/ruby-quicktips</id>
+    <id>http://duff.github.com/blog/2012/02/16/ruby-quicktips</id>
     <content type="html"><![CDATA[<p>I&#8217;ve been enjoying the <a href="http://rubyquicktips.com/">Ruby Quicktips</a> blog.  Even if you&#8217;ve been using Ruby for years, I&#8217;m betting there&#8217;s still things there you&#8217;ll find useful.</p>
 
 <p><a href="http://rubyquicktips.com/post/2311239580/array-first-and-array-last-parameters">For example</a>, did you know you can pass a number parameter to Array#first and Array#last?</p>
@@ -227,9 +227,9 @@ lobbies of hotels at geeky conferences.</p>
   
   <entry>
     <title type="html"><![CDATA[Mulling On Spreedly]]></title>
-    <link href="http://duffomelia.com/blog/2011/10/15/mulling-on-spreedly/"/>
+    <link href="http://duff.github.com/blog/2011/10/15/mulling-on-spreedly/"/>
     <updated>2011-10-15T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2011/10/15/mulling-on-spreedly</id>
+    <id>http://duff.github.com/blog/2011/10/15/mulling-on-spreedly</id>
     <content type="html"><![CDATA[<p>I just started reading <a href="http://sivers.org">Derek Siver&#8217;s</a> book <a href="http://amzn.to/mT9XLk">Anything You Want</a>.  In it, he lists his utopian dream-come-true distribution deal from his musician&#8217;s point of view. He&#8217;s basically listing the reasons he&#8217;d want to be a customer of his own business.</p>
 
 <p>This got me thinking about why I&#8217;d like to be a customer of <a href="http://spreedly.com">Spreedly</a>.  So here it is - a customer perspective.</p>
@@ -252,9 +252,9 @@ and I don&#8217;t want to be.  I know that PCI compliance could cost a truckload
   
   <entry>
     <title type="html"><![CDATA[A Nomadic Adventure]]></title>
-    <link href="http://duffomelia.com/blog/2010/10/17/a-nomadic-adventure/"/>
+    <link href="http://duff.github.com/blog/2010/10/17/a-nomadic-adventure/"/>
     <updated>2010-10-17T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2010/10/17/a-nomadic-adventure</id>
+    <id>http://duff.github.com/blog/2010/10/17/a-nomadic-adventure</id>
     <content type="html"><![CDATA[<p><strong>Here are the details of an adventure I&#8217;d like to embark on:</strong></p>
 
 <ul>
@@ -294,18 +294,18 @@ experiment.</li>
   
   <entry>
     <title type="html"><![CDATA[Fullstack iPhone]]></title>
-    <link href="http://duffomelia.com/blog/2010/05/12/full-stack-iphone/"/>
+    <link href="http://duff.github.com/blog/2010/05/12/full-stack-iphone/"/>
     <updated>2010-05-12T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2010/05/12/full-stack-iphone</id>
+    <id>http://duff.github.com/blog/2010/05/12/full-stack-iphone</id>
     <content type="html"><![CDATA[<p>I&#8217;m pretty excited to see if <a href="http://fullstackiphone.com">http://fullstackiphone.com</a> succeeds in connecting those creating iPhone/iPad businesses with those who can help them with the tech side.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[The Goal By Eliyahu M Goldratt]]></title>
-    <link href="http://duffomelia.com/blog/2010/01/12/the-goal-by-eliyahu-m-goldratt/"/>
+    <link href="http://duff.github.com/blog/2010/01/12/the-goal-by-eliyahu-m-goldratt/"/>
     <updated>2010-01-12T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2010/01/12/the-goal-by-eliyahu-m-goldratt</id>
+    <id>http://duff.github.com/blog/2010/01/12/the-goal-by-eliyahu-m-goldratt</id>
     <content type="html"><![CDATA[<p>Wow.  <a href="http://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271781/ref=sr_1_1?ie=UTF8&amp;s=books&amp;qid=1263309279&amp;sr=8-1">What a book</a>.  Who would have thought that a book about how to convert a factory from a money loser to a profitable enterprise could be so
 entertaining and engaging?  Who would have thought that you could teach business principles using a novel?  It&#8217;s really a brilliant book.</p>
 
@@ -318,9 +318,9 @@ book down.</p>
   
   <entry>
     <title type="html"><![CDATA[The Well-Grounded Rubyist]]></title>
-    <link href="http://duffomelia.com/blog/2009/12/17/the-well-grounded-rubyist/"/>
+    <link href="http://duff.github.com/blog/2009/12/17/the-well-grounded-rubyist/"/>
     <updated>2009-12-17T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2009/12/17/the-well-grounded-rubyist</id>
+    <id>http://duff.github.com/blog/2009/12/17/the-well-grounded-rubyist</id>
     <content type="html"><![CDATA[<p>This past Tuesday, we had a pretty enjoyable book exchange at the <a href="http://www.meetup.com/raleighrb/calendar/11377547/">Raleigh Area Ruby Brigade</a> meetup.  Before the gathering, I had some food with <a href="http://matthewbass.com">Matt Bass</a>.  He mentioned that he was bringing a book he was hopeful would help
 someone who hadn&#8217;t been using Ruby for very long.  It turns out that I ended up pulling the book Matt brought (<a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657">The Well-Grounded Rubyist</a>).  My first thought was, oh well, I&#8217;ve been using Ruby for years,
 this probably isn&#8217;t a book I&#8217;d be into reading.  I even tried to convince folks to exchange for it.</p>
@@ -342,9 +342,9 @@ own Ruby.</p>
   
   <entry>
     <title type="html"><![CDATA[One Person Makes a Difference]]></title>
-    <link href="http://duffomelia.com/blog/2009/11/23/one_person_makes_a_difference/"/>
+    <link href="http://duff.github.com/blog/2009/11/23/one_person_makes_a_difference/"/>
     <updated>2009-11-23T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2009/11/23/one_person_makes_a_difference</id>
+    <id>http://duff.github.com/blog/2009/11/23/one_person_makes_a_difference</id>
     <content type="html"><![CDATA[<p>We&#8217;ve all had experiences as a customer when we&#8217;ve heard things like &#8220;I don&#8217;t have the authority to do that&#8221; or &#8220;Sorry, we have this policy&#8230;&#8221;.</p>
 
 <p>It can be pretty frustrating and it seems to happen more when dealing with big companies than small companies.</p>
@@ -372,9 +372,9 @@ about it.</p>
   
   <entry>
     <title type="html"><![CDATA[Customer Service Delight]]></title>
-    <link href="http://duffomelia.com/blog/2009/11/17/customer_service_delight/"/>
+    <link href="http://duff.github.com/blog/2009/11/17/customer_service_delight/"/>
     <updated>2009-11-17T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2009/11/17/customer_service_delight</id>
+    <id>http://duff.github.com/blog/2009/11/17/customer_service_delight</id>
     <content type="html"><![CDATA[<blockquote><p>every interaction matters and every customer is precious&#8230; Every interaction is both precious and an opportunity to delight.</p><footer><strong>Seth Godin</strong> <cite><a href='http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html'>Welcome to Island Marketing</a></cite></footer></blockquote>
 
 
@@ -391,9 +391,9 @@ out of the park by attempting to delight people, how could it not succeed?</p>
   
   <entry>
     <title type="html"><![CDATA[Prefixed Pluralize]]></title>
-    <link href="http://duffomelia.com/blog/2009/11/12/prefixed_pluralize/"/>
+    <link href="http://duff.github.com/blog/2009/11/12/prefixed_pluralize/"/>
     <updated>2009-11-12T00:00:00-05:00</updated>
-    <id>http://duffomelia.com/blog/2009/11/12/prefixed_pluralize</id>
+    <id>http://duff.github.com/blog/2009/11/12/prefixed_pluralize</id>
     <content type="html"><![CDATA[<p>I&#8217;d like the view to be smart and say something like &#8220;There are 3 plans available&#8221; or &#8220;There is 1 plan available&#8221; based on the number of plans.</p>
 
 <p>Icky:</p>
@@ -448,9 +448,9 @@ out of the park by attempting to delight people, how could it not succeed?</p>
   
   <entry>
     <title type="html"><![CDATA[A Monopoly Of Violence]]></title>
-    <link href="http://duffomelia.com/blog/2009/05/29/a-monopoly-of-violence/"/>
+    <link href="http://duff.github.com/blog/2009/05/29/a-monopoly-of-violence/"/>
     <updated>2009-05-29T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2009/05/29/a-monopoly-of-violence</id>
+    <id>http://duff.github.com/blog/2009/05/29/a-monopoly-of-violence</id>
     <content type="html"><![CDATA[<p>I think it&#8217;s important to remember exactly what the State is.  It&#8217;s so easy to be tricked into thinking it&#8217;s something that it&#8217;s really not.  It&#8217;s easy to be fooled into thinking that the coercive monopoly of the State is somehow a force for good.</p>
 <p>Murray Rothbard&#8217;s defined the State in his amazing essay entitled <a href="http://www.lewrockwell.com/rothbard/rothbard26.html">War, Peace, and the State</a>.</p>
 <blockquote>
@@ -464,9 +464,9 @@ out of the park by attempting to delight people, how could it not succeed?</p>
   
   <entry>
     <title type="html"><![CDATA[Toilets!]]></title>
-    <link href="http://duffomelia.com/blog/2008/10/15/toilets/"/>
+    <link href="http://duff.github.com/blog/2008/10/15/toilets/"/>
     <updated>2008-10-15T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2008/10/15/toilets</id>
+    <id>http://duff.github.com/blog/2008/10/15/toilets</id>
     <content type="html"><![CDATA[<p>I just love this quote <a href="http://www.tuccille.com/blog/2008/10/beware-next-illegitimate-president.html">from J.D. Tuccille</a> :</p>
 <blockquote>
 <p>Red and blue tribal loyalists shriek about each other&#8217;s perfidy because they have conspired to intrude the state into virtually every area of human life.  Having created a government so powerful that it tells them what size toilet they can install in their homes, steals the lion&#8217;s share of the average shmoe&#8217;s gross play, and kicks in people&#8217;s doors for smoking the wrong plant (weed or tobacco &#8212; your choice) or playing poker without a permit, they&#8217;ve suddenly discovered that who&#8217;s in charge is really important.</p>
@@ -480,24 +480,24 @@ out of the park by attempting to delight people, how could it not succeed?</p>
   
   <entry>
     <title type="html"><![CDATA[Time Freedom]]></title>
-    <link href="http://duffomelia.com/blog/2008/07/02/time-freedom/"/>
+    <link href="http://duff.github.com/blog/2008/07/02/time-freedom/"/>
     <updated>2008-07-02T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2008/07/02/time-freedom</id>
+    <id>http://duff.github.com/blog/2008/07/02/time-freedom</id>
     <content type="html"><![CDATA[<p>I met a dad in the pediatric intensive care unit whose child had been in the neonatal area of the hospital for 3 months.  I asked him how things went with work and how he and his wife were able to spend so much time at the hospital.  He replied that he&#8217;s a business owner and that his work wasn&#8217;t too affected by the long hospital stay.</p>
 <p>Creating assets that provide value to people is important.  Producing more than we consume is important.  Figuring out how to live in a way such that your income is not solely based on the time you spend working is important.</p>]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Seasteading]]></title>
-    <link href="http://duffomelia.com/blog/2008/05/26/seasteading/"/>
+    <link href="http://duff.github.com/blog/2008/05/26/seasteading/"/>
     <updated>2008-05-26T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2008/05/26/seasteading</id>
+    <id>http://duff.github.com/blog/2008/05/26/seasteading</id>
     <content type="html"><![CDATA[<p>I think that government throughout the world is fundamentally broken.  I don&#8217;t see how the current governments out there can possibly be fixed or refined.  I think they&#8217;re too far gone.  They&#8217;re not really competing with each other primarily because it&#8217;s too difficult for individuals (the customers of government) to switch governments.  They&#8217;re also too big for individuals to really have a significant impact.  Put a few million people together and you get a government that no one is really happy with.  Government becomes the legal way for people to take other people&#8217;s property and to force others to act the way they&#8217;d like.</p>
 <p>In America today, there are a ton of groups who think they can do a better job but have very little hope of America ever really reflecting their values.  There are libertarians, environmentalists, Christians, Muslims, liberals, neo-conservatives, and anarcho-capitalists.  That&#8217;s just naming a few of the groups who will never really see their ideas for government really enacted.</p>
 <p>So if you&#8217;re in a hopeless group and you&#8217;d actually like to implement your ideas, what are you to do?  At this point, all people can do is whine, complain, and dream.  They never really <strong>do</strong> anything.  They often talk about it, write about it, call their representative about it, and hope for a different future.  Sure, some do become activists and have some slight impact.</p>
 <p>I&#8217;ve been one of those whiners by having this blog.  One could write a blog entry about each of the laws in this country explaining why it shouldn&#8217;t be the way that it is.  Many whiners, complainers, and dreamers eventually resort to contemplating the creation of their own nation.  It&#8217;s been tried many many times by many people.  All of the attempts have had one important thing in common.  They&#8217;ve all failed.  Miserably.</p>
 <p>That&#8217;s about to change.</p>
-<p><img class="right" src="http://duffomelia.com/images/posts/2008/seastead.jpg"></p>
+<p><img class="right" src="http://duff.github.com/images/posts/2008/seastead.jpg"></p>
 <p>I think that <a href="http://seasteading.org/">Seasteading</a> will become a reality.  I think it&#8217;ll be the first nation creation idea that will actually work.  I&#8217;ve <a href="http://seasteading.org/seastead.org/book_beta/full_book_beta.html">read their book</a>.  I&#8217;ve read every entry <a href="http://seasteading.org/stay-in-touch/blog">on their blog</a>.  They have an impressive plan.  I didn&#8217;t know that it was possible to create a floating structure that doesn&#8217;t rock with the waves.  I&#8217;d really like to see this in action.  If this works, it changes everything.  It could actually make governments more competitive since it gives people more of an opportunity to vote with their feet.</p>
 <p>I love that they&#8217;ve learned from all of the failed attempts.  I <strong>love</strong> their incremental approach.  It&#8217;s the same approach I use to create software and websites.  I think they&#8217;re brilliant and I&#8217;d like to invest large quantities of cash in this new way of life.</p>
 <p><span class="caps">UPDATE</span>: This <a href="http://arstechnica.com/articles/culture/seasteading-engineering-the-long-tail.ars">multi-page summary of seasteading</a> could be a good place to get some more background.</p>]]></content>
@@ -505,9 +505,9 @@ out of the park by attempting to delight people, how could it not succeed?</p>
   
   <entry>
     <title type="html"><![CDATA[Ready for real customers?]]></title>
-    <link href="http://duffomelia.com/blog/2008/04/23/ready-for-real-customers/"/>
+    <link href="http://duff.github.com/blog/2008/04/23/ready-for-real-customers/"/>
     <updated>2008-04-23T00:00:00-04:00</updated>
-    <id>http://duffomelia.com/blog/2008/04/23/ready-for-real-customers</id>
+    <id>http://duff.github.com/blog/2008/04/23/ready-for-real-customers</id>
     <content type="html"><![CDATA[<p>You&#8217;re creating a website that you&#8217;d like to release to the general public.  One of the questions that needs answering is, which features do you need to make it to that first release?</p>
 <p>I&#8217;ve been enjoying creating sites that I personally use like <a href="http://spreedly.com">Spreedly</a> and <a href="http://nokahuna.com">No Kahuna</a>.  When I&#8217;m an actual user of the site I&#8217;m making, it makes the decision about what to implement a bit easier.</p>
 <p>The goal is to get to market and have the site being used by <strong>real</strong> customers as quickly as possible.  For No Kahuna, that happened in 2 days.  Spreedly took many weeks of effort before a real customer started using it.  To release to a real customer, we&#8217;re only trying to make something that&#8217;s slightly better than what&#8217;s out there.  We&#8217;re only trying to provide <strong>some</strong> value to the customer, not all of the value we&#8217;re ever going to provide.  Does the site in its current state improve the lives of our customers?</p>

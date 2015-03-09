@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://duffomelia.com/sitemap.xml 
+Sitemap: http://duff.github.com/sitemap.xml 
